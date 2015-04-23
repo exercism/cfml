@@ -1,0 +1,19 @@
+{
+  "slug": "coldfusion",
+  "language": "ColdFusion",
+  "repository": "https://github.com/exercism/xcoldfusion",
+  "active": false,
+  "test_pattern": "TODO",
+  "problems": [
+
+  ],
+  "deprecated": [
+
+  ],
+  "ignored": [
+    "bin"
+  ],
+  "foregone": [
+
+  ]
+}
