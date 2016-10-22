@@ -4,9 +4,6 @@
   "repository": "https://github.com/exercism/xcoldfusion",
   "active": false,
   "test_pattern": "TODO",
-  "problems": [
-    "leap"
-  ],
   "deprecated": [
 
   ],
@@ -15,5 +12,12 @@
   ],
   "foregone": [
 
+  ],
+  "exercises": [
+    {
+      "difficulty": 1,
+      "slug": "leap",
+      "topics": []
+    }
   ]
 }
