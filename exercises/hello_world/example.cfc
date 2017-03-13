@@ -1,9 +1,12 @@
-component output="false" displayname=""  {
+<html>
+<head>
+<title>Hello World</title>
+</head>
+<body>
 
-	public function sayHello() {
+  <cfset message = "Hello World!">
+  <cfoutput>#message#</cfoutput>
 
-		<cfset hello = "Hello World !">
-		<cfoutput>#hello#</cfoutput>
 
-	}
-}
+</body>
+</html>

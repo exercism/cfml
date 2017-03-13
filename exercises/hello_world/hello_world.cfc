@@ -1,6 +1,10 @@
-component output="false" displayname=""  {
+<html>
+<head>
+<title>Hello World</title>
+</head>
+<body>
+// not need function
 
-	public function sayHello(Sring) {
-	
-	}
-}
+
+</body>
+</html>
