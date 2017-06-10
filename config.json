@@ -18,7 +18,9 @@
     {
       "difficulty": 1,
       "slug": "leap",
-      "topics": []
+      "topics": [
+
+      ]
     }
   ]
 }
