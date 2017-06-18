@@ -1,7 +1,7 @@
 {
   "slug": "coldfusion",
   "language": "ColdFusion",
-  "repository": "https://github.com/exercism/xcoldfusion",
+  "repository": "https://github.com/exercism/coldfusion",
   "active": false,
   "test_pattern": "TODO",
   "deprecated": [
