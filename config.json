@@ -4,16 +4,16 @@
   "repository": "https://github.com/exercism/coldfusion",
   "active": false,
   "test_pattern": "TODO",
-  "deprecated": [
-
-  ],
   "foregone": [
 
   ],
   "exercises": [
     {
-      "difficulty": 1,
+      "uuid": "03a98e5b-03b7-45e5-a580-611ef5dab4e5",
       "slug": "leap",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 1,
       "topics": [
 
       ]
