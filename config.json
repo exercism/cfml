@@ -1,7 +1,7 @@
 {
   "language": "ColdFusion",
   "active": false,
-  "test_pattern": "TODO",
+  "test_pattern": "_tests.cfc",
   "foregone": [
 
   ],
