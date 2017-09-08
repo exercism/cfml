@@ -1,5 +1,5 @@
-component output="false" displayname=""  {
-	public function isLeapYear(year) {
-		
+component {
+	 function isLeapYear( year ) {
+		// Implement me here
 	}
 }
