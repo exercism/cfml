@@ -1,35 +1,39 @@
-component displayName="Leap Tests" extends="testbox.system.BaseSpec" {
+component extends="testbox.system.BaseSpec" {
 
-   // executes before all tests
-   function beforeTests(){
-      leapObj = createObject("leap");
-   }
+	function beforeAll(){
+	  leapObj = createObject( 'leap' );
+	}
 
-   function testLeapYear() {
-      $assert.isTrue(leapObj.isLeapYear(1996));
-   }
-
-   function testNonLeapYear() {
-      $assert.isFalse(leapObj.isLeapYear(1997));
-   }
-
-   function testNonLeapEvenYear() {
-      $assert.isFalse(leapObj.isLeapYear(1998));
-   }
-
-   function testCentury() {
-      $assert.isFalse(leapObj.isLeapYear(1900));
-   }
-
-   function testfourthCentury() {
-      $assert.isTrue(leapObj.isLeapYear(2400));
-   }
-
-   function testY2K() {
-      $assert.isTrue(leapObj.isLeapYear(2000));
-   }
-
-   // executes after all tests
-   function afterTests(){}
-
+	function run(){
+	
+		describe( "My Leap year calculator", function(){
+			
+			it( "should detect a leap year", function(){
+      			expect( leapObj.isLeapYear( 1996 ) ).toBeTrue();
+			});
+			
+			it( "should detect a non-leap year", function(){
+      			expect( leapObj.isLeapYear( 1997 ) ).toBeFalse();
+			});
+			
+			it( "should detect a non-leap even year", function(){
+      			expect( leapObj.isLeapYear( 1998 ) ).toBeFalse();
+			});
+			
+			it( "should detect a century", function(){
+      			expect( leapObj.isLeapYear( 1900 ) ).toBeFalse();
+			});
+			
+			it( "should detect a fourth century", function(){
+      			expect( leapObj.isLeapYear( 2400 ) ).toBeTrue();
+			});
+			
+			it( "should detect Y2K", function(){
+      			expect( leapObj.isLeapYear( 2000 ) ).toBeTrue();
+			});
+			
+		});
+		
+	}
+ 
 }
