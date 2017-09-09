@@ -1,7 +1,6 @@
 {
   "language": "ColdFusion",
   "active": false,
-  "test_pattern": "_tests.cfc",
   "foregone": [
 
   ],
