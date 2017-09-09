@@ -76,8 +76,7 @@ component {
 			
 		print.toConsole();
 		
-		// Set proper exit code 
-		setExitCode( 0 );
+		// Set proper exit code
 		if( testData.totalFail || testData.totalError ) {
 			setExitCode( 1 );
 		}

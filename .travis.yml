@@ -1,6 +1,18 @@
 ---
-language: bash
+language: java
+sudo: required
+jdk:
+  - oraclejdk8
+cache:
+  directories:
+  - $HOME/.CommandBox
+before_install:
+  - sudo apt-key adv --keyserver keys.gnupg.net --recv 6DA70622
+  - sudo echo "deb http://downloads.ortussolutions.com/debs/noarch /" | sudo tee -a /etc/apt/sources.list.d/commandbox.list
+install:
+  - sudo apt-get update && sudo apt-get --assume-yes install commandbox
 script:
-- bin/fetch-configlet
-- bin/configlet lint .
-sudo: false
+  - bin/fetch-configlet
+  - bin/configlet lint .
+  - box task run tasks/testAllSolutions
+
