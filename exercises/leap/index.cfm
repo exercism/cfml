@@ -1,3 +1,17 @@
+<!--- 
+
+This file will only be used if you want to start up a web server in this directory.  You can do so by running:
+
+$> box
+CommandBox> install
+CommandBox> server start
+
+However, this is not necessary unless you really just want to use the HTML reporters on TestBox.  
+Ideally, you'll skip the need for this file entirely and just run the tests directly frm the CLI like this:
+
+CommandBox> task run TestRunner
+
+ --->
 <cfsetting showDebugOutput="false">
 <cfparam name="url.reporter" 		default="simple">
 <cfscript>

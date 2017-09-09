@@ -1,3 +1,14 @@
+/**
+* I am a CommandBox task runner which you can use to test your implementation of this exercise against the 
+* provided test suite.  To use me, open the CommandBox CLI and run this:
+* 
+* CommandBox> task run TestRunner
+*
+* To start up a test watcher that will automatically rerun the test suite every time you save a file change, run this:
+*
+* CommandBox> task run TestRunner --watcher
+*
+*/
 component {
 	
 	/**
@@ -38,9 +49,12 @@ component {
 
 	}
 
+	/**
+	* Make sure the TestBox framework is installed
+	*/
 	private function ensureTestBox() {
-		var excerciseRoot = filesystemUtil.resolvePath( '../' );
-		var testBoxRoot = excerciseRoot & 'testbox';
+		var excerciseRoot = getCWD();
+		var testBoxRoot = excerciseRoot & '/testbox';
 		
 		if( !directoryExists( testBoxRoot ) ) {
 			
@@ -54,6 +68,9 @@ component {
 		filesystemUtil.createMapping( '/testbox', testBoxRoot );
 	}
 
+	/**
+	* Invoke TestBox to run the test suite
+	*/
 	private function runTests( boolean solution=false ) {
 		
 		// Create TestBox and run the tests
