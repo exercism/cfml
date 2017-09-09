@@ -6,7 +6,7 @@ component {
 		exercises.each( function( path ) {
 			if( fileExists( path & '/TestRunner.cfc' ) ) {
 				command( 'task run' )
-					.params( 'testRunner' )
+					.params( 'TestRunner' )
 					.flags( 'solution' )
 					.inWorkingDirectory( path )
 					.run();
