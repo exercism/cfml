@@ -1,7 +1,7 @@
 component extends="testbox.system.BaseSpec" {
 
 	function beforeAll(){
-	  leapObj = createObject( 'leap' );
+	  leapObj = createObject( 'Leap' );
 	}
 
 	function run(){

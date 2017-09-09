@@ -2,6 +2,7 @@
   "language": "ColdFusion",
   "active": false,
   "solution_pattern": "Solution.cfc",
+  "ignore_pattern": "Solution",
   "foregone": [
 
   ],
