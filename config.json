@@ -8,6 +8,11 @@
   ],
   "exercises": [
     {
+      "difficulty": 1,
+      "slug": "hello_world",
+      "topics": []
+    },
+    {
       "uuid": "03a98e5b-03b7-45e5-a580-611ef5dab4e5",
       "slug": "leap",
       "core": false,
