@@ -8,9 +8,11 @@
   ],
   "exercises": [
     {
+      "uuid": "ab04a390-0969-4a17-8081-c852b23ed88c",
       "difficulty": 1,
       "slug": "hello_world",
-      "topics": []
+      "topics": [
+      ]
     },
     {
       "uuid": "03a98e5b-03b7-45e5-a580-611ef5dab4e5",
@@ -19,7 +21,6 @@
       "unlocked_by": null,
       "difficulty": 1,
       "topics": [
-
       ]
     }
   ]
