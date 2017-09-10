@@ -14,5 +14,5 @@ install:
 script:
   - bin/fetch-configlet
   - bin/configlet lint .
-  - box task run tasks/testAllSolutions
+  - box task run tasks/TestAllSolutions
 
