@@ -18,8 +18,8 @@ CommandBox> task run TestRunner
 	// get a list of all CFCs in this folder whose name looks like "XXXTest.cfc"
 	// And turn it into compnent path relative to the web root
 	url.bundles = directoryList(
-			path='/leap',
-			filter='*test.cfc' )
+			path=expandPath( '/' ),
+			filter='*Test.cfc' )
 		.map( function( path ) {
 			return path
 					.replaceNoCase( expandPath( '/' ), '' )

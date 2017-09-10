@@ -58,7 +58,7 @@ component {
 		
 		if( !directoryExists( testBoxRoot ) ) {
 			
-			print.boldRedLine( 'Installing some missing dependencies for you!' ).toConsole();
+			print.boldYellowLine( 'Installing some missing dependencies for you!' ).toConsole();
 			command( 'install' )
 				.inWorkingDirectory( excerciseRoot )
 				.run();
