@@ -1,5 +1,6 @@
 {
   "language": "ColdFusion",
+  "blurb" : "ColdFusion (CFML) is an open source and commercial (JIT) compiled dynamic and loosely typed JVM scripting language that embodies classic OO, and functional programming, making it easy to learn, fun to use.  CFML brings the power and scalability of the J2EE ecosystem but without the boilerplate of Java.",
   "active": false,
   "solution_pattern": "Solution.cfc",
   "ignore_pattern": "Solution",
