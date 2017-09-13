@@ -6,11 +6,8 @@ component extends="testbox.system.BaseSpec" {
 
 	function run(){
 	
-		describe( "My @@name@@ class", function(){
-			
-			it( "should ...", function(){
-				expect( SUT.methodCall() ).toBe( 'Test value' );
-			});
+		describe( "My @@name@@ class", function(){			
+@@testCases@@
 		});
 		
 	}

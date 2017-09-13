@@ -1,11 +1,10 @@
 /**
-* I sccold a new exercise from the template.
+* I scaffold a new exercise from the template.
 */
 component {
 	
 	function run(
 		slug,
-		name,
 		difficulty,
 		uuid=createGUID()
 	) {
@@ -16,17 +15,13 @@ component {
 			arguments.slug = ask( 'Exercise slug as defined by Excercism. Ex: "hello-world": ' );
 		}
 		
-		// Acquire name
-		if( isNull( arguments.name ) ) {
-			// Slug of hello-world defaults to name of HelloWorld
-			var defaultName = arguments.slug
-				.listToArray( '-' )
-				.map( function( i ){
-					return i.left( 1 ).uCase() & i.right( -1 ).lCase();
-				} )
-				.toList( '' );
-			arguments.name = ask( message='Exercise Name, camel cased and one word. Ex: "HelloWorld": ', defaultResponse=defaultName );
-		}
+		// Slug of hello-world defaults to name of HelloWorld
+		var exerciseName = arguments.slug
+			.listToArray( '-' )
+			.map( function( i ){
+				return i.left( 1 ).uCase() & i.right( -1 ).lCase();
+			} )
+			.toList( '' );
 		
 		// Acquire diffculty
 		if( isNull( arguments.difficulty ) ) {
@@ -55,11 +50,10 @@ component {
 		
 		// Perform Token replacements
 		command( 'tokenReplace' )
-			.params( '**', '@@name@@', arguments.name )
+			.params( '**', '@@name@@', exerciseName )
 			.inWorkingDirectory( exerciseDirectory )
 			.run();
 		
-		var exerciseName = arguments.name;
 		directoryList( exerciseDirectory, true )
 			.each( function( path ){
 				if( path.findNoCase( '@@name@@' ) ) {
@@ -70,16 +64,21 @@ component {
 		print.boldGreenLine( 'New exercise created!' )
 			.line()
 			.greenLine( 'The exercise is located here: ' )
-			.greenIndentedLine( exerciseDirectory )
+			.indentedYellowLine( exerciseDirectory )
 			.line()
-			.line( 'The next steps are to create the unit tests here: ' )
-			.indentedLine( exerciseDirectory & '/' & exerciseName & 'Test.cfc' )
+			.greenLine( 'Create a sample solution here: ' )
+			.indentedYellowLine( exerciseDirectory & '/Solution.cfc' )
 			.line()
-			.line( 'Then create a sample solution here: ' )
-			.indentedLine( exerciseDirectory & '/Solution.cfc' )
+			.greenLine( 'Test your solution with this command: ' )
+			.indentedYellowLine( 'box task run TestRunner --solution' )
 			.line()
-			.line( 'Test your solution with this command: ' )
-			.indentedYellowLine( 'box task run TestRunner --solution' );
+			.toConsole();
+
+		// Generate test suite
+		command( 'task run' )
+			.params( 'GenerateTests', 'run', slug )
+			.inWorkingDirectory( repoRootPath & '/tasks' )
+			.run();
 		
 	}
 	
