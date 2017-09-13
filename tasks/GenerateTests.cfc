@@ -5,56 +5,79 @@ component {
 	
 	function run(
 		slug,
+		boolean all=false
 	) {
 		var repoRootPath = expandPath( getDirectoryFromPath( getCurrentTemplatePath() ) & '../' );
 		var problemSpecsPath = expandPath( getDirectoryFromPath( getCurrentTemplatePath() ) & '../../problem-specifications' );
 				
-		// TODO: generate tests for all existing exercises
-		// Acquire slug
-		if( isNull( arguments.slug ) ) {
-			arguments.slug = ask( 'Exercise slug as defined by Excercism. Ex: "hello-world": ' );
-		}
-		
-		// Slug of hello-world defaults to name of HelloWorld
-		var exerciseName = arguments.slug
-			.listToArray( '-' )
-			.map( function( i ){
-				return i.left( 1 ).uCase() & i.right( -1 ).lCase();
-			} )
-			.toList( '' );
-		
 		if( !directoryExists( problemSpecsPath ) ){
 			error( 'Cannot find [problem-specifications] repo.  It needs to be git cloned to [#problemSpecsPath#]' );
 		}
 		
-		var exercisePath = problemSpecsPath & '/exercises/' & slug;
-		if( !directoryExists( exercisePath ) ){
-			error( 'Cannot find exercise [#slug#].  Tests not generated.' );
+		if( all ) {
+			
+			// Get an array of all the excercise names
+			var exercises = directoryList( expandPath( getDirectoryFromPath( getCurrentTemplatePath() ) & '../exercises' ) )
+				.map( function( path ) {
+					return path.listLast( '/\' );
+				} );
+		
+		} else {
+		
+			// Acquire slug
+			if( isNull( arguments.slug ) ) {
+				arguments.slug = ask( 'Exercise slug as defined by Excercism. Ex: "hello-world": ' );
+			}
+			var exercises = [ slug ];
+			
 		}
+				
+		exercises.each( function( slug ) {
+			
+			try {
+				
+				// Slug of hello-world defaults to name of HelloWorld
+				var exerciseName = arguments.slug
+					.listToArray( '-' )
+					.map( function( i ){
+						return i.left( 1 ).uCase() & i.right( -1 ).lCase();
+					} )
+					.toList( '' );
+				
+				var exercisePath = problemSpecsPath & '/exercises/' & slug;
+				if( !directoryExists( exercisePath ) ){
+					error( 'Cannot find exercise [#slug#] in problem-specifications repo.  Tests not generated.' );
+				}
+				
+				var canonicalDataPath = exercisePath & '/canonical-data.json';
+				if( !fileExists( canonicalDataPath ) ){
+					error( 'Cannot find [canonical-data.json] for this slug.  No tests will be generated' );
+				}
 		
-		var canonicalDataPath = exercisePath & '/canonical-data.json';
-		if( !fileExists( canonicalDataPath ) ){
-			error( 'Cannot find [canonical-data.json] for this slug.  No tests will be generated' );
-		}
-
-		var canonicalData = deserializeJSON( fileRead( canonicalDataPath ) );
-		var testCases = generateCases( canonicalData.cases );
-		
-		var testStub = fileRead( repoRootPath & '/tasks/exercise_template/@@name@@Test.cfc' );
-		testStub = testStub.replace( '@@name@@', exerciseName, 'all' );
-		testStub = testStub.replace( '@@testCases@@', testCases, 'all' );
-		var targetExercisePath = repoRootPath & 'exercises/' & slug;
-		var newTestPath = targetExercisePath & '/' & exerciseName & 'Test.cfc';
-		
-		if( !directoryExists( targetExercisePath ) ) {
-			error( 'Target exercise does not exist! [#targetExercisePath#]' );
-		}
-		
-		fileWrite( newTestPath, testStub );
-		
-		print.greenLine( 'Test generated!' )
-			.indentedYellowLine( newTestPath )
-			.toConsole();
+				var canonicalData = deserializeJSON( fileRead( canonicalDataPath ) );
+				var testCases = generateCases( canonicalData.cases );
+				
+				var testStub = fileRead( repoRootPath & '/tasks/exercise_template/@@name@@Test.cfc' );
+				testStub = testStub.replace( '@@name@@', exerciseName, 'all' );
+				testStub = testStub.replace( '@@testCases@@', testCases, 'all' );
+				var targetExercisePath = repoRootPath & 'exercises/' & slug;
+				var newTestPath = targetExercisePath & '/' & exerciseName & 'Test.cfc';
+				
+				if( !directoryExists( targetExercisePath ) ) {
+					error( 'Target exercise does not exist! [#targetExercisePath#]' );
+				}
+				
+				fileWrite( newTestPath, testStub );
+				
+				print.greenLine( 'Test generated!' )
+					.indentedYellowLine( newTestPath )
+					.toConsole();
+			} catch( 'commandException' var e ) {
+				print.boldRedLine( e.message )
+					.line();
+			}
+			
+		} ); // End exercises.each()
 	}
 	
 	private function generateCases( cases, level=1 ) {
