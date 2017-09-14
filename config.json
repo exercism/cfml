@@ -26,7 +26,7 @@
       ]
     },
     {
-      "difficulty":"1",
+      "difficulty":1,
       "slug":"pangram",
       "uuid":"113A2FF7-E72E-49DD-A2CF-0EB25894707D",
       "topics":[
