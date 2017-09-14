@@ -38,7 +38,7 @@ component {
 		var configJSON = deserializeJSON( fileRead( repoRootPath & '/config.json' ) );
 		configJSON.exercises.append( {
 			"uuid": arguments.uuid,
-			"difficulty": arguments.difficulty,
+			"difficulty": arguments.difficulty+0,
 			"slug": arguments.slug,
 			"topics": []
 		} );		
