@@ -138,7 +138,7 @@ component {
 		} else if( isSimpleValue( expected) && expected == '__NULL__' ) {
 			return 'toBeNull()';
 		} else if( isStruct( expected ) && expected.keyExists( 'error' ) ) {
-			return 'toThrow( #escapeString( expected.error )# )';
+			return 'toThrow( message=#escapeString( expected.error )# )';
 		} else {
 			return "toBe( #escapeString( expected )# )";
 		}
