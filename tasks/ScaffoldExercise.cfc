@@ -42,7 +42,7 @@ component {
 			"slug": arguments.slug,
 			"topics": []
 		} );		
-		fileWrite( repoRootPath & '/config.json', formatterUtil.formatJSON( configJSON ) );
+		fileWrite( repoRootPath & '/config.json', formatterUtil.formatJSON( json=configJSON, indent='  ' , lineEnding=chr( 10 ) ) );
 
 		// Create exercise scaffold
 		directoryCreate( exerciseDirectory );
