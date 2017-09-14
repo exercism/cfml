@@ -94,11 +94,17 @@ component {
 #repeatString( chr( 9 ), level )#		});#CRLF#";
 					
 			} else {
-				
+				case.expected = case.expected ?: '__NULL__';
 				// Don't adjust whitespace
-				testCases &=  "#CRLF##repeatString( chr( 9 ), level )#		it( #generateDescription( case.description )#, function(){
-#repeatString( chr( 9 ), level )#			expect( SUT.#case.property#(#generateInput( case )#) ).#generateExpectation( case.expected ?: '__NULL__' )#;
-#repeatString( chr( 9 ), level )#		});#CRLF#";			
+				testCases &=  "#CRLF##repeatString( chr( 9 ), level )#		it( #generateDescription( case.description )#, function(){#CRLF#";
+				// Special check for when error should be tested
+				if( isStruct( case.expected ) && case.expected.keyExists( 'error' ) ) {
+					testCases &=  "#repeatString( chr( 9 ), level )#			expect( function(){ SUT.#case.property#(#generateInput( case )#); } ).#generateExpectation( case.expected )#;#CRLF#";	
+				// "normal" expectation
+				} else {
+					testCases &=  "#repeatString( chr( 9 ), level )#			expect( SUT.#case.property#(#generateInput( case )#) ).#generateExpectation( case.expected )#;#CRLF#";
+				}
+				testCases &=  "#repeatString( chr( 9 ), level )#		});#CRLF#";
 			} 
 			
 		} );
@@ -125,12 +131,14 @@ component {
 	}
 	
 	private function generateExpectation( expected ) {
-		if( isBoolean( expected ) && expected ) {
+		if( isSimpleValue( expected ) && compareNoCase( expected, 'true' ) == 0 ) {
 			return 'toBeTrue()';
-		} else if( isBoolean( expected ) && !expected ) {
+		} else if( isSimpleValue( expected ) && compareNoCase( expected, 'false' ) == 0 ) {
 			return 'toBeFalse()';
 		} else if( isSimpleValue( expected) && expected == '__NULL__' ) {
-			return 'toBeNull()';						
+			return 'toBeNull()';
+		} else if( isStruct( expected ) && expected.keyExists( 'error' ) ) {
+			return 'toThrow( #escapeString( expected.error )# )';
 		} else {
 			return "toBe( #escapeString( expected )# )";
 		}
