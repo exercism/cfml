@@ -1,26 +1,36 @@
 {
-  "language": "ColdFusion",
-  "active": false,
-  "solution_pattern": "Solution.cfc",
-  "ignore_pattern": "Solution",
-  "foregone": [
-
+  "language":"ColdFusion",
+  "active":false,
+  "solution_pattern":"Solution.cfc",
+  "ignore_pattern":"Solution",
+  "foregone":[
+    
   ],
-  "exercises": [
+  "exercises":[
     {
-      "uuid": "ab04a390-0969-4a17-8081-c852b23ed88c",
-      "difficulty": 1,
-      "slug": "hello_world",
-      "topics": [
+      "uuid":"ab04a390-0969-4a17-8081-c852b23ed88c",
+      "difficulty":1,
+      "slug":"hello_world",
+      "topics":[
+        
       ]
     },
     {
-      "uuid": "03a98e5b-03b7-45e5-a580-611ef5dab4e5",
-      "slug": "leap",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": [
+      "uuid":"03a98e5b-03b7-45e5-a580-611ef5dab4e5",
+      "slug":"leap",
+      "core":false,
+      "unlocked_by":null,
+      "difficulty":1,
+      "topics":[
+        
+      ]
+    },
+    {
+      "difficulty":1,
+      "slug":"nth-prime",
+      "uuid":"15151E41-195C-40DD-B296-C2C19B38CAEA",
+      "topics":[
+        
       ]
     }
   ]
