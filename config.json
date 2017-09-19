@@ -1,17 +1,17 @@
 {
-  "language":"ColdFusion",
-  "active":false,
-  "solution_pattern":"Solution.cfc",
-  "ignore_pattern":"Solution",
-  "foregone":[
-    
+  "language": "ColdFusion",
+  "blurb" : "ColdFusion (CFML) is an open source and commercial (JIT) compiled dynamic and loosely typed JVM scripting language that embodies classic OO, and functional programming, making it easy to learn, fun to use.  CFML brings the power and scalability of the J2EE ecosystem but without the boilerplate of Java.",
+  "active": false,
+  "solution_pattern": "Solution.cfc",
+  "ignore_pattern": "Solution",
+  "foregone": [
   ],
   "exercises":[
     {
-      "uuid":"ab04a390-0969-4a17-8081-c852b23ed88c",
-      "difficulty":1,
-      "slug":"hello_world",
-      "topics":[
+      "uuid": "ab04a390-0969-4a17-8081-c852b23ed88c",
+      "difficulty": 1,
+      "slug": "hello-world",
+      "topics": [
         
       ]
     },
@@ -21,6 +21,126 @@
       "core":false,
       "unlocked_by":null,
       "difficulty":1,
+      "topics":[
+        
+      ]
+    },
+    {
+      "difficulty":1,
+      "slug":"raindrops",
+      "uuid":"9273C0A7-CB7E-4F3F-8993-F1621CE1F700",
+      "topics":[
+        
+      ]
+    },
+    {
+      "difficulty":1,
+      "slug":"scrabble-score",
+      "uuid":"1065F8DF-E6C6-4473-A633-4FA4B49A5314",
+      "topics":[
+        
+      ]
+    },
+    {
+      "difficulty":1,
+      "slug":"difference-of-squares",
+      "uuid":"4E91AD44-8F3D-40DC-899E-253C91B134F6",
+      "topics":[
+        
+      ]
+    },
+    {
+      "difficulty":1,
+      "slug":"secret-handshake",
+      "uuid":"0AC79782-B370-4954-8455-6300A734E1B8",
+      "topics":[
+        
+      ]
+    },
+    {
+      "difficulty":1,
+      "slug":"space-age",
+      "uuid":"0B14F23A-DAD4-4965-8ABD-8A107DFD6C00",
+      "topics":[
+        
+      ]
+    },
+    {
+      "difficulty":1,
+      "slug":"acronym",
+      "uuid":"9894F2F7-2DBE-4001-885B-FD2C029C6731",
+      "topics":[
+        
+      ]
+    },
+    {
+      "difficulty":1,
+      "slug":"rna-transcription",
+      "uuid":"11C48AFF-4A54-4B3C-AF5E-53048D4BA98B",
+      "topics":[
+        
+      ]
+    },
+    {
+      "difficulty":1,
+      "slug":"pangram",
+      "uuid":"113A2FF7-E72E-49DD-A2CF-0EB25894707D",
+      "topics":[
+        
+      ]
+    },
+    {
+      "difficulty":1,
+      "slug":"hamming",
+      "uuid":"4063A554-424C-4173-81EE-FEAC7CC51E8A",
+      "topics":[
+        
+      ]
+    },
+    {
+      "difficulty":1,
+      "slug":"gigasecond",
+      "uuid":"00B82E7F-804C-4401-BB7F-0565DEA02567",
+      "topics":[
+        
+      ]
+    },
+    {
+      "difficulty":1,
+      "slug":"sum-of-multiples",
+      "uuid":"C6F38ACB-A6BD-41EE-A2F8-A9680B3F61D2",
+      "topics":[
+        
+      ]
+    },
+    {
+      "difficulty":1,
+      "slug":"luhn",
+      "uuid":"685ADB7B-1DC9-4409-993D-51034DF6F744",
+      "topics":[
+        
+      ]
+    },
+    {
+      "difficulty":1,
+      "slug":"triangle",
+      "uuid":"8D0FA71A-3314-432E-BF1F-E6A5F823FC36",
+      "topics":[
+        
+      ]
+    },
+    {
+      "difficulty":1,
+      "slug":"largest-series-product",
+      "uuid":"A35C9BE1-F26A-40C8-8C05-99C33C552E6F",
+      "topics":[
+        
+      ]
+    },
+    {
+      "difficulty":1,
+      "slug":"grains",
+      "uuid":"E25686EE-B888-4533-86C2-5A5D96F5270E",
       "topics":[
         
       ]

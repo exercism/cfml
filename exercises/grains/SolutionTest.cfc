@@ -1,4 +1,4 @@
-component extends="LeapTest" {
+component extends="GrainsTest" {
 
 	function beforeAll(){
 	  SUT = createObject( 'Solution' );
