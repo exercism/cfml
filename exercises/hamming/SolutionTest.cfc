@@ -1,4 +1,4 @@
-component extends="LeapTest" {
+component extends="HammingTest" {
 
 	function beforeAll(){
 	  SUT = createObject( 'Solution' );
