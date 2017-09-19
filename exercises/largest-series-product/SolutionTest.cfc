@@ -1,4 +1,4 @@
-component extends="LeapTest" {
+component extends="LargestSeriesProductTest" {
 
 	function beforeAll(){
 	  SUT = createObject( 'Solution' );
