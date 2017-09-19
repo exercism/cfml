@@ -1,6 +1,13 @@
 {
   "maintainers": [
-
+	{
+	  "github_username": "bdw429s",
+	  "show_on_website": true,
+	  "name": "Brad Wood",
+	  "bio": "ColdBox/CommandBox Developer Advocate. Lucee Member. System Architect. CFML dev. DBA. Dad. Handyman. Ready for a revolution.",
+	  "link_text": "Tech Blog",
+	  "link_url": "http://www.codersrevolution.com/"
+	}
   ],
   "docs_url": "https://github.com/exercism/docs/blob/master/maintaining-a-track/maintainer-configuration.md"
 }
