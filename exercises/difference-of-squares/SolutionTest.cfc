@@ -1,4 +1,4 @@
-component extends="LeapTest" {
+component extends="DifferenceOfSquaresTest" {
 
 	function beforeAll(){
 	  SUT = createObject( 'Solution' );
