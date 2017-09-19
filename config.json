@@ -192,6 +192,14 @@
       "topics":[
         
       ]
+    },
+    {
+      "difficulty":1,
+      "slug":"isogram",
+      "uuid":"FC8922A3-E29D-451D-9947-A2781C0FF787",
+      "topics":[
+        
+      ]
     }
   ]
 }
