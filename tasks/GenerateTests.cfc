@@ -119,7 +119,7 @@ component {
 	private function generateInput( case ) {
 		var thisInput = '';
 		for( var key in case ) {
-			if( !listFindNoCase( 'description,property,expected,cases', key ) ) {
+			if( !listFindNoCase( 'description,property,expected,cases,comments', key ) && !isNull( case[ key ] ) ) {
 				thisInput = thisInput.listAppend( "#key#=#escapeString( case[ key ] )#" );
 			}
 		}

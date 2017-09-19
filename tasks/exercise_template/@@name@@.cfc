@@ -6,7 +6,7 @@ component {
 	/**
 	* @returns 
 	*/
-	 function stubMethodName() {
+	function stubMethodName() {
 		// Implement me here
 	}
 	
