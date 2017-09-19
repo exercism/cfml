@@ -104,6 +104,14 @@
       "topics":[
         
       ]
+    },
+    {
+      "difficulty":1,
+      "slug":"sum-of-multiples",
+      "uuid":"C6F38ACB-A6BD-41EE-A2F8-A9680B3F61D2",
+      "topics":[
+        
+      ]
     }
   ]
 }
