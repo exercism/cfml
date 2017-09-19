@@ -88,6 +88,14 @@
       "topics":[
         
       ]
+    },
+    {
+      "difficulty":1,
+      "slug":"hamming",
+      "uuid":"4063A554-424C-4173-81EE-FEAC7CC51E8A",
+      "topics":[
+        
+      ]
     }
   ]
 }
