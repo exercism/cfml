@@ -7,7 +7,7 @@ component {
 	* @returns A string greeting the world
 	*/
 	 function helloWorld() {
-		// Implement me here
+		return '';
 	}
 	
 }
