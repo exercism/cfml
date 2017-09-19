@@ -168,6 +168,14 @@
       "topics":[
         
       ]
+    },
+    {
+      "difficulty":1,
+      "slug":"flatten-array",
+      "uuid":"B0E72A09-49E2-4973-BFF4-88C678F4BE55",
+      "topics":[
+        
+      ]
     }
   ]
 }
