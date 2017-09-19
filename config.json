@@ -152,6 +152,14 @@
       "topics":[
         
       ]
+    },
+    {
+      "difficulty":1,
+      "slug":"nth-prime",
+      "uuid":"15151E41-195C-40DD-B296-C2C19B38CAEA",
+      "topics":[
+        
+      ]
     }
   ]
 }
