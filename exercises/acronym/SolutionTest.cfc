@@ -1,4 +1,4 @@
-component extends="LeapTest" {
+component extends="AcronymTest" {
 
 	function beforeAll(){
 	  SUT = createObject( 'Solution' );
