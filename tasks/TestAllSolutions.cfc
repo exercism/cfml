@@ -13,7 +13,7 @@ component {
 				command( 'task run' )
 					.params( 'TestRunner' )
 					// Specifically as the task runners to run the SolutionTest
-					.flags( 'solution' )
+					.flags( ':solution' )
 					.inWorkingDirectory( path )
 					.run();
 			}
