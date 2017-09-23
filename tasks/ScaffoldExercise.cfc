@@ -70,7 +70,7 @@ component {
 			.indentedYellowLine( exerciseDirectory & '/Solution.cfc' )
 			.line()
 			.greenLine( 'Test your solution with this command: ' )
-			.indentedYellowLine( 'box task run TestRunner --solution' )
+			.indentedYellowLine( 'box task run TestRunner --:solution' )
 			.line()
 			.toConsole();
 

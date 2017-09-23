@@ -1,18 +1,19 @@
 {
-  "language": "ColdFusion",
-  "blurb" : "ColdFusion (CFML) is an open source and commercial (JIT) compiled dynamic and loosely typed JVM scripting language that embodies classic OO, and functional programming, making it easy to learn, fun to use.  CFML brings the power and scalability of the J2EE ecosystem but without the boilerplate of Java.",
-  "active": true,
-  "test_pattern": "Test.cfc",
-  "solution_pattern": "Solution.cfc",
-  "ignore_pattern": "Solution",
-  "foregone": [
+  "language":"ColdFusion",
+  "blurb":"ColdFusion (CFML) is an open source and commercial (JIT) compiled dynamic and loosely typed JVM scripting language that embodies classic OO, and functional programming, making it easy to learn, fun to use.  CFML brings the power and scalability of the J2EE ecosystem but without the boilerplate of Java.",
+  "active":true,
+  "test_pattern":"Test.cfc",
+  "solution_pattern":"Solution.cfc",
+  "ignore_pattern":"Solution",
+  "foregone":[
+    
   ],
   "exercises":[
     {
-      "uuid": "ab04a390-0969-4a17-8081-c852b23ed88c",
-      "difficulty": 1,
-      "slug": "hello-world",
-      "topics": [
+      "uuid":"ab04a390-0969-4a17-8081-c852b23ed88c",
+      "difficulty":1,
+      "slug":"hello-world",
+      "topics":[
         
       ]
     },
@@ -198,6 +199,14 @@
       "difficulty":1,
       "slug":"isogram",
       "uuid":"FC8922A3-E29D-451D-9947-A2781C0FF787",
+      "topics":[
+        
+      ]
+    },
+    {
+      "difficulty":1,
+      "slug":"bob",
+      "uuid":"12BBECF4-93EB-40F2-AC13-8CF28B550F0A",
       "topics":[
         
       ]
