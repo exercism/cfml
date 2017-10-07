@@ -184,30 +184,6 @@ component {
 
 	/**
 	*
-	* Check if string contains <strong> 
-	*
-	* @content.hint String with content to check
-	*
-	*/
-	private boolean function isBold( required string content ) {
-
-		return ( findNoCase( "<strong>", arguments.content ) > 0 );
-	}
-
-	/**
-	*
-	* Check if string contains <em> 
-	*
-	* @content.hint String with content to check
-	*
-	*/
-	private boolean function isItalic( required string content ) {
-
-		return ( findNoCase( "<em>", arguments.content ) > 0 );
-	}
-
-	/**
-	*
 	* Utility function to replace markdown delimiter with their tag equivalent
 	*
 	* @markdown.hint Markdown to parse
