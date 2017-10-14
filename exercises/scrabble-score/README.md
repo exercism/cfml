@@ -1,30 +1,41 @@
-# Leap
+# Scrabble Score
 
-Given a year, report if it is a leap year.
+Given a word, compute the scrabble score for that word.
 
-The tricky thing here is that a leap year in the Gregorian calendar occurs:
+## Letter Values
+
+You'll need these:
 
 ```plain
-on every year that is evenly divisible by 4
-  except every year that is evenly divisible by 100
-    unless the year is also evenly divisible by 400
+Letter                           Value
+A, E, I, O, U, L, N, R, S, T       1
+D, G                               2
+B, C, M, P                         3
+F, H, V, W, Y                      4
+K                                  5
+J, X                               8
+Q, Z                               10
 ```
 
-For example, 1997 is not a leap year, but 1996 is.  1900 is not a leap
-year, but 2000 is.
+## Examples
+"cabbage" should be scored as worth 14 points:
 
-If your language provides a method in the standard library that does
-this look-up, pretend it doesn't exist and implement it yourself.
+- 3 points for C
+- 1 point for A, twice
+- 3 points for B, twice
+- 2 points for G
+- 1 point for E
 
-## Notes
+And to total:
 
-Though our exercise adopts some very simple rules, there is more to
-learn!
+- `3 + 2*1 + 2*3 + 2 + 1`
+- = `3 + 2 + 6 + 3`
+- = `5 + 9`
+- = 14
 
-For a delightful, four minute explanation of the whole leap year
-phenomenon, go watch [this youtube video][video].
-
-[video]: http://www.youtube.com/watch?v=xX96xng7sAE
+## Extensions
+- You can play a double or a triple letter.
+- You can play a double or a triple word.
 
 * * * *
 
@@ -43,7 +54,7 @@ The tests leverage a library called TestBox which supports xUnit and BDD style o
 [https://testbox.ortusbooks.com/content/](https://testbox.ortusbooks.com/content/)
 ## Source
 
-JavaRanch Cattle Drive, exercise 3 [http://www.javaranch.com/leap.jsp](http://www.javaranch.com/leap.jsp)
+Inspired by the Extreme Startup game [https://github.com/rchatley/extreme_startup](https://github.com/rchatley/extreme_startup)
 
 ## Submitting Incomplete Solutions
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.

@@ -1,30 +1,18 @@
-# Leap
+# Markdown
 
-Given a year, report if it is a leap year.
+Refactor a Markdown parser.
 
-The tricky thing here is that a leap year in the Gregorian calendar occurs:
+The markdown exercise is a refactoring exercise. There is code that parses a
+given string with [Markdown
+syntax](https://guides.github.com/features/mastering-markdown/) and returns the
+associated HTML for that string. Even though this code is confusingly written
+and hard to follow, somehow it works and all the tests are passing! Your
+challenge is to re-write this code to make it easier to read and maintain
+while still making sure that all the tests keep passing.
 
-```plain
-on every year that is evenly divisible by 4
-  except every year that is evenly divisible by 100
-    unless the year is also evenly divisible by 400
-```
-
-For example, 1997 is not a leap year, but 1996 is.  1900 is not a leap
-year, but 2000 is.
-
-If your language provides a method in the standard library that does
-this look-up, pretend it doesn't exist and implement it yourself.
-
-## Notes
-
-Though our exercise adopts some very simple rules, there is more to
-learn!
-
-For a delightful, four minute explanation of the whole leap year
-phenomenon, go watch [this youtube video][video].
-
-[video]: http://www.youtube.com/watch?v=xX96xng7sAE
+It would be helpful if you made notes of what you did in your refactoring in
+comments so reviewers can see that, but it isn't strictly necessary. The most
+important thing is to make the code better!
 
 * * * *
 
@@ -41,9 +29,6 @@ box task run TestRunner --:watcher
 The tests leverage a library called TestBox which supports xUnit and BDD style of testing.  All test suites will be written in the [BDD style](https://testbox.ortusbooks.com/content/primers/bdd/specs.html) which uses closures to define test specs.  You won't need to worry about installing TestBox.  The CLI test runner will take care of that for you.  You just need to be connected to the internet the first time you run it.  You can read more about it here:
 
 [https://testbox.ortusbooks.com/content/](https://testbox.ortusbooks.com/content/)
-## Source
-
-JavaRanch Cattle Drive, exercise 3 [http://www.javaranch.com/leap.jsp](http://www.javaranch.com/leap.jsp)
 
 ## Submitting Incomplete Solutions
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.

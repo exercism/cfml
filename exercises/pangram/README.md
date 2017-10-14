@@ -1,30 +1,12 @@
-# Leap
+# Pangram
 
-Given a year, report if it is a leap year.
+Determine if a sentence is a pangram. A pangram (Greek: παν γράμμα, pan gramma,
+"every letter") is a sentence using every letter of the alphabet at least once.
+The best known English pangram is: 
+> The quick brown fox jumps over the lazy dog.
 
-The tricky thing here is that a leap year in the Gregorian calendar occurs:
-
-```plain
-on every year that is evenly divisible by 4
-  except every year that is evenly divisible by 100
-    unless the year is also evenly divisible by 400
-```
-
-For example, 1997 is not a leap year, but 1996 is.  1900 is not a leap
-year, but 2000 is.
-
-If your language provides a method in the standard library that does
-this look-up, pretend it doesn't exist and implement it yourself.
-
-## Notes
-
-Though our exercise adopts some very simple rules, there is more to
-learn!
-
-For a delightful, four minute explanation of the whole leap year
-phenomenon, go watch [this youtube video][video].
-
-[video]: http://www.youtube.com/watch?v=xX96xng7sAE
+The alphabet used consists of ASCII letters `a` to `z`, inclusive, and is case
+insensitive. Input will not contain non-ASCII symbols.
 
 * * * *
 
@@ -43,7 +25,7 @@ The tests leverage a library called TestBox which supports xUnit and BDD style o
 [https://testbox.ortusbooks.com/content/](https://testbox.ortusbooks.com/content/)
 ## Source
 
-JavaRanch Cattle Drive, exercise 3 [http://www.javaranch.com/leap.jsp](http://www.javaranch.com/leap.jsp)
+Wikipedia [https://en.wikipedia.org/wiki/Pangram](https://en.wikipedia.org/wiki/Pangram)
 
 ## Submitting Incomplete Solutions
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.
