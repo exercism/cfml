@@ -1,30 +1,15 @@
-# Leap
+# Sum Of Multiples
 
-Given a year, report if it is a leap year.
+Given a number, find the sum of all the multiples of particular numbers up to
+but not including that number.
 
-The tricky thing here is that a leap year in the Gregorian calendar occurs:
+If we list all the natural numbers up to but not including 20 that are
+multiples of either 3 or 5, we get 3, 5, 6 and 9, 10, 12, 15, and 18.
 
-```plain
-on every year that is evenly divisible by 4
-  except every year that is evenly divisible by 100
-    unless the year is also evenly divisible by 400
-```
+The sum of these multiples is 78.
 
-For example, 1997 is not a leap year, but 1996 is.  1900 is not a leap
-year, but 2000 is.
-
-If your language provides a method in the standard library that does
-this look-up, pretend it doesn't exist and implement it yourself.
-
-## Notes
-
-Though our exercise adopts some very simple rules, there is more to
-learn!
-
-For a delightful, four minute explanation of the whole leap year
-phenomenon, go watch [this youtube video][video].
-
-[video]: http://www.youtube.com/watch?v=xX96xng7sAE
+Given a number, find the sum of the multiples of a given set of numbers,
+up to but not including that number.
 
 * * * *
 
@@ -43,7 +28,7 @@ The tests leverage a library called TestBox which supports xUnit and BDD style o
 [https://testbox.ortusbooks.com/content/](https://testbox.ortusbooks.com/content/)
 ## Source
 
-JavaRanch Cattle Drive, exercise 3 [http://www.javaranch.com/leap.jsp](http://www.javaranch.com/leap.jsp)
+A variation on Problem 1 at Project Euler [http://projecteuler.net/problem=1](http://projecteuler.net/problem=1)
 
 ## Submitting Incomplete Solutions
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.

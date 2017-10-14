@@ -1,30 +1,22 @@
-# Leap
+# Space Age
 
-Given a year, report if it is a leap year.
+Given an age in seconds, calculate how old someone would be on:
 
-The tricky thing here is that a leap year in the Gregorian calendar occurs:
+   - Earth: orbital period 365.25 Earth days, or 31557600 seconds
+   - Mercury: orbital period 0.2408467 Earth years
+   - Venus: orbital period 0.61519726 Earth years
+   - Mars: orbital period 1.8808158 Earth years
+   - Jupiter: orbital period 11.862615 Earth years
+   - Saturn: orbital period 29.447498 Earth years
+   - Uranus: orbital period 84.016846 Earth years
+   - Neptune: orbital period 164.79132 Earth years
 
-```plain
-on every year that is evenly divisible by 4
-  except every year that is evenly divisible by 100
-    unless the year is also evenly divisible by 400
-```
+So if you were told someone were 1,000,000,000 seconds old, you should
+be able to say that they're 31.69 Earth-years old. Round all ages to
+the nearest hundredth of a year.
 
-For example, 1997 is not a leap year, but 1996 is.  1900 is not a leap
-year, but 2000 is.
-
-If your language provides a method in the standard library that does
-this look-up, pretend it doesn't exist and implement it yourself.
-
-## Notes
-
-Though our exercise adopts some very simple rules, there is more to
-learn!
-
-For a delightful, four minute explanation of the whole leap year
-phenomenon, go watch [this youtube video][video].
-
-[video]: http://www.youtube.com/watch?v=xX96xng7sAE
+If you're wondering why Pluto didn't make the cut, go watch [this
+youtube video](http://www.youtube.com/watch?v=Z_2gbGXzFbs).
 
 * * * *
 
@@ -43,7 +35,7 @@ The tests leverage a library called TestBox which supports xUnit and BDD style o
 [https://testbox.ortusbooks.com/content/](https://testbox.ortusbooks.com/content/)
 ## Source
 
-JavaRanch Cattle Drive, exercise 3 [http://www.javaranch.com/leap.jsp](http://www.javaranch.com/leap.jsp)
+Partially inspired by Chapter 1 in Chris Pine's online Learn to Program tutorial. [http://pine.fm/LearnToProgram/?Chapter=01](http://pine.fm/LearnToProgram/?Chapter=01)
 
 ## Submitting Incomplete Solutions
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.

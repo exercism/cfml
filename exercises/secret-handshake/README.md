@@ -1,30 +1,32 @@
-# Leap
+# Secret Handshake
 
-Given a year, report if it is a leap year.
+> There are 10 types of people in the world: Those who understand
+> binary, and those who don't.
 
-The tricky thing here is that a leap year in the Gregorian calendar occurs:
+You and your fellow cohort of those in the "know" when it comes to
+binary decide to come up with a secret "handshake".
 
-```plain
-on every year that is evenly divisible by 4
-  except every year that is evenly divisible by 100
-    unless the year is also evenly divisible by 400
+```
+1 = wink
+10 = double blink
+100 = close your eyes
+1000 = jump
+
+
+10000 = Reverse the order of the operations in the secret handshake.
 ```
 
-For example, 1997 is not a leap year, but 1996 is.  1900 is not a leap
-year, but 2000 is.
+Given a decimal number, convert it to the appropriate sequence of events for a secret handshake.
 
-If your language provides a method in the standard library that does
-this look-up, pretend it doesn't exist and implement it yourself.
+Here's a couple of examples:
 
-## Notes
+Given the input 3, the function would return the array
+["wink", "double blink"] because 3 is 11 in binary.
 
-Though our exercise adopts some very simple rules, there is more to
-learn!
-
-For a delightful, four minute explanation of the whole leap year
-phenomenon, go watch [this youtube video][video].
-
-[video]: http://www.youtube.com/watch?v=xX96xng7sAE
+Given the input 19, the function would return the array
+["double blink", "wink"] because 19 is 10011 in binary.
+Notice that the addition of 16 (10000 in binary)
+has caused the array to be reversed.
 
 * * * *
 
@@ -43,7 +45,7 @@ The tests leverage a library called TestBox which supports xUnit and BDD style o
 [https://testbox.ortusbooks.com/content/](https://testbox.ortusbooks.com/content/)
 ## Source
 
-JavaRanch Cattle Drive, exercise 3 [http://www.javaranch.com/leap.jsp](http://www.javaranch.com/leap.jsp)
+Bert, in Mary Poppins [http://www.imdb.com/character/ch0011238/quotes](http://www.imdb.com/character/ch0011238/quotes)
 
 ## Submitting Incomplete Solutions
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.

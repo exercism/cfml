@@ -1,30 +1,31 @@
-# Leap
+# Grains
 
-Given a year, report if it is a leap year.
+Calculate the number of grains of wheat on a chessboard given that the number
+on each square doubles.
 
-The tricky thing here is that a leap year in the Gregorian calendar occurs:
+There once was a wise servant who saved the life of a prince. The king
+promised to pay whatever the servant could dream up. Knowing that the
+king loved chess, the servant told the king he would like to have grains
+of wheat. One grain on the first square of a chess board. Two grains on
+the next. Four on the third, and so on.
 
-```plain
-on every year that is evenly divisible by 4
-  except every year that is evenly divisible by 100
-    unless the year is also evenly divisible by 400
-```
+There are 64 squares on a chessboard.
 
-For example, 1997 is not a leap year, but 1996 is.  1900 is not a leap
-year, but 2000 is.
+Write code that shows:
+- how many grains were on each square, and
+- the total number of grains
 
-If your language provides a method in the standard library that does
-this look-up, pretend it doesn't exist and implement it yourself.
 
-## Notes
+## For bonus points
 
-Though our exercise adopts some very simple rules, there is more to
-learn!
+Did you get the tests passing and the code clean? If you want to, these
+are some additional things you could try:
 
-For a delightful, four minute explanation of the whole leap year
-phenomenon, go watch [this youtube video][video].
+- Optimize for speed.
+- Optimize for readability.
 
-[video]: http://www.youtube.com/watch?v=xX96xng7sAE
+Then please share your thoughts in a comment on the submission. Did this
+experiment make the code better? Worse? Did you learn anything from it?
 
 * * * *
 
@@ -43,7 +44,7 @@ The tests leverage a library called TestBox which supports xUnit and BDD style o
 [https://testbox.ortusbooks.com/content/](https://testbox.ortusbooks.com/content/)
 ## Source
 
-JavaRanch Cattle Drive, exercise 3 [http://www.javaranch.com/leap.jsp](http://www.javaranch.com/leap.jsp)
+JavaRanch Cattle Drive, exercise 6 [http://www.javaranch.com/grains.jsp](http://www.javaranch.com/grains.jsp)
 
 ## Submitting Incomplete Solutions
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.

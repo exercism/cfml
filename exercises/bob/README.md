@@ -1,30 +1,15 @@
-# Leap
+# Bob
 
-Given a year, report if it is a leap year.
+Bob is a lackadaisical teenager. In conversation, his responses are very limited.
 
-The tricky thing here is that a leap year in the Gregorian calendar occurs:
+Bob answers 'Sure.' if you ask him a question.
 
-```plain
-on every year that is evenly divisible by 4
-  except every year that is evenly divisible by 100
-    unless the year is also evenly divisible by 400
-```
+He answers 'Whoa, chill out!' if you yell at him.
 
-For example, 1997 is not a leap year, but 1996 is.  1900 is not a leap
-year, but 2000 is.
+He says 'Fine. Be that way!' if you address him without actually saying
+anything.
 
-If your language provides a method in the standard library that does
-this look-up, pretend it doesn't exist and implement it yourself.
-
-## Notes
-
-Though our exercise adopts some very simple rules, there is more to
-learn!
-
-For a delightful, four minute explanation of the whole leap year
-phenomenon, go watch [this youtube video][video].
-
-[video]: http://www.youtube.com/watch?v=xX96xng7sAE
+He answers 'Whatever.' to anything else.
 
 * * * *
 
@@ -43,7 +28,7 @@ The tests leverage a library called TestBox which supports xUnit and BDD style o
 [https://testbox.ortusbooks.com/content/](https://testbox.ortusbooks.com/content/)
 ## Source
 
-JavaRanch Cattle Drive, exercise 3 [http://www.javaranch.com/leap.jsp](http://www.javaranch.com/leap.jsp)
+Inspired by the 'Deaf Grandma' exercise in Chris Pine's Learn to Program tutorial. [http://pine.fm/LearnToProgram/?Chapter=06](http://pine.fm/LearnToProgram/?Chapter=06)
 
 ## Submitting Incomplete Solutions
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.

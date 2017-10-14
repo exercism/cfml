@@ -1,30 +1,30 @@
-# Leap
+# Saddle Points
 
-Given a year, report if it is a leap year.
+Detect saddle points in a matrix.
 
-The tricky thing here is that a leap year in the Gregorian calendar occurs:
+So say you have a matrix like so:
 
 ```plain
-on every year that is evenly divisible by 4
-  except every year that is evenly divisible by 100
-    unless the year is also evenly divisible by 400
+    0  1  2
+  |---------
+0 | 9  8  7
+1 | 5  3  2     <--- saddle point at (1,0)
+2 | 6  6  7
 ```
 
-For example, 1997 is not a leap year, but 1996 is.  1900 is not a leap
-year, but 2000 is.
+It has a saddle point at (1, 0).
 
-If your language provides a method in the standard library that does
-this look-up, pretend it doesn't exist and implement it yourself.
+It's called a "saddle point" because it is greater than or equal to
+every element in its row and the less than or equal to every element in
+its column.
 
-## Notes
+A matrix may have zero or more saddle points.
 
-Though our exercise adopts some very simple rules, there is more to
-learn!
+Your code should be able to provide the (possibly empty) list of all the
+saddle points for any given matrix.
 
-For a delightful, four minute explanation of the whole leap year
-phenomenon, go watch [this youtube video][video].
-
-[video]: http://www.youtube.com/watch?v=xX96xng7sAE
+Note that you may find other definitions of matrix saddle points online,
+but the tests for this exercise follow the above unambiguous definition.
 
 * * * *
 
@@ -43,7 +43,7 @@ The tests leverage a library called TestBox which supports xUnit and BDD style o
 [https://testbox.ortusbooks.com/content/](https://testbox.ortusbooks.com/content/)
 ## Source
 
-JavaRanch Cattle Drive, exercise 3 [http://www.javaranch.com/leap.jsp](http://www.javaranch.com/leap.jsp)
+J Dalbey's Programming Practice problems [http://users.csc.calpoly.edu/~jdalbey/103/Projects/ProgrammingPractice.html](http://users.csc.calpoly.edu/~jdalbey/103/Projects/ProgrammingPractice.html)
 
 ## Submitting Incomplete Solutions
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.

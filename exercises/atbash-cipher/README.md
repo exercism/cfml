@@ -1,30 +1,31 @@
-# Leap
+# Atbash Cipher
 
-Given a year, report if it is a leap year.
+Create an implementation of the atbash cipher, an ancient encryption system created in the Middle East.
 
-The tricky thing here is that a leap year in the Gregorian calendar occurs:
+The Atbash cipher is a simple substitution cipher that relies on
+transposing all the letters in the alphabet such that the resulting
+alphabet is backwards. The first letter is replaced with the last
+letter, the second with the second-last, and so on.
+
+An Atbash cipher for the Latin alphabet would be as follows:
 
 ```plain
-on every year that is evenly divisible by 4
-  except every year that is evenly divisible by 100
-    unless the year is also evenly divisible by 400
+Plain:  abcdefghijklmnopqrstuvwxyz
+Cipher: zyxwvutsrqponmlkjihgfedcba
 ```
 
-For example, 1997 is not a leap year, but 1996 is.  1900 is not a leap
-year, but 2000 is.
+It is a very weak cipher because it only has one possible key, and it is
+a simple monoalphabetic substitution cipher. However, this may not have
+been an issue in the cipher's time.
 
-If your language provides a method in the standard library that does
-this look-up, pretend it doesn't exist and implement it yourself.
+Ciphertext is written out in groups of fixed length, the traditional group size
+being 5 letters, and punctuation is excluded. This is to make it harder to guess
+things based on word boundaries.
 
-## Notes
-
-Though our exercise adopts some very simple rules, there is more to
-learn!
-
-For a delightful, four minute explanation of the whole leap year
-phenomenon, go watch [this youtube video][video].
-
-[video]: http://www.youtube.com/watch?v=xX96xng7sAE
+## Examples
+- Encoding `test` gives `gvhg`
+- Decoding `gvhg` gives `test`
+- Decoding `gsvjf rxpyi ldmul cqfnk hlevi gsvoz abwlt` gives `thequickbrownfoxjumpsoverthelazydog`
 
 * * * *
 
@@ -43,7 +44,7 @@ The tests leverage a library called TestBox which supports xUnit and BDD style o
 [https://testbox.ortusbooks.com/content/](https://testbox.ortusbooks.com/content/)
 ## Source
 
-JavaRanch Cattle Drive, exercise 3 [http://www.javaranch.com/leap.jsp](http://www.javaranch.com/leap.jsp)
+Wikipedia [http://en.wikipedia.org/wiki/Atbash](http://en.wikipedia.org/wiki/Atbash)
 
 ## Submitting Incomplete Solutions
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.
