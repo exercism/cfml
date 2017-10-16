@@ -167,6 +167,30 @@
             "topics":[
                 
             ]
+        },
+        {
+            "difficulty":1,
+            "slug":"anagram",
+            "uuid":"339BACAD-F08F-48EE-8DE9-234D4399B49B",
+            "topics":[
+                
+            ]
+        },
+        {
+            "difficulty":1,
+            "slug":"anagram",
+            "uuid":"1FB0664F-4E28-4D41-B07A-18D4C70E879C",
+            "topics":[
+                
+            ]
+        },
+        {
+            "difficulty":1,
+            "slug":"anagram",
+            "uuid":"anagram",
+            "topics":[
+                
+            ]
         }
     ],
     "foregone":[
