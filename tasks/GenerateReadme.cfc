@@ -9,15 +9,14 @@ component  {
 	function run(
 		slug,
 		boolean all=false,
-		boolean overwrite=false
+		boolean force=false
 	){
 
 		/* Init global variables */
 		repoRootPath = expandPath( getDirectoryFromPath( getCurrentTemplatePath() ) & '../' );
 		problemSpecsPath = expandPath( getDirectoryFromPath( getCurrentTemplatePath() ) & '../../problem-specifications' );
-		trackReadmeTemplate = fileRead( repoRootPath & "config/exercise_readme.go.tmpl" );
 		trackReadmeInsert= fileRead( repoRootPath & "docs/EXERCISE_README_INSERT.md" );
-		overwriteExistingFiles = arguments.overwrite;	
+		overwriteExistingFiles = arguments.force;	
 
 		if( !directoryExists( problemSpecsPath ) ){
 			error( 'Cannot find [problem-specifications] repo.  It needs to be git cloned to [#problemSpecsPath#]' );
@@ -43,13 +42,7 @@ component  {
 
 		exercises.each( function( slug ) {
 			
-			try {
-				generateReadme( arguments.slug );
-
-			} catch( 'commandException' var e ) {
-				print.boldRedLine( e.message )
-					.line();
-			}
+			generateReadme( arguments.slug );
 			
 		} ); // End exercises.each()
 	
@@ -63,16 +56,14 @@ component  {
 		if ( !fileExists(readMeFile) || overwriteExistingFiles) {
 
 			var spec = getSpec( arguments.slug );
-			readmeContent = replace( trackReadmeTemplate, "{{ .Spec.Name }}" , spec.name );
-			readmeContent = replace( readmeContent, "{{ .Spec.Description -}}" , spec.description );
-			readmeContent = reReplace( readmeContent, "{{\- with \.Hints }}\n{{ \. }}\n{{ end }}" , getHints( arguments.slug ) );
-			readmeContent = reReplace( readmeContent, "{{\- with \.TrackInsert }}\n{{ \. }}\n{{ end }}" , trackReadmeInsert );
-			if ( len( spec.credits ) ) {
-				readmeContent = reReplace( readmeContent, "{{\- with \.Spec\.Credits \-}}\n(#### Source\n\n){{ \. }}\n{{ end }}" , "\1" & spec.credits & chr( 10 ) );
-			}
-			else {
-				readmeContent = reReplace( readmeContent, "{{\- with \.Spec\.Credits \-}}\n#### Source\n\n{{ \. }}\n{{ end }}" , "" );
-			}
+
+			readmeContent = "## #spec.name#" & chr( 10 ) & chr( 10 );
+			readmeContent = readmeContent & spec.description & chr( 10 );
+			readmeContent = readmeContent & getHints( arguments.slug ) & chr( 10 );
+			readmeContent = readmeContent & trackReadmeInsert & chr( 10 );
+			readmeContent = readmeContent & spec.credits & chr( 10 );
+			readmeContent = readmeContent & "#### Submitting Incomplete Solutions#chr( 10 )#It's possible to submit an incomplete solution so you can see how others have completed the exercise.#chr( 10 )#";
+
 			/* Write the file */
 			fileWrite( readMeFile , readmeContent );
 
@@ -146,6 +137,10 @@ component  {
 		}
 		else {
 			var credits = "#spec.source# [#spec.source_url#](#spec.source_url#)";
+		}
+
+		if ( len( credits ) ) {
+			credits = "#### Source" & chr( 10 ) & chr( 10 ) & credits & chr( 10 );
 		}
 
 		return  credits;
