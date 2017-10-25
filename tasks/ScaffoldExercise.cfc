@@ -76,13 +76,13 @@ component {
 
 		// Generate test suite
 		command( 'task run' )
-			.params( taskFile = 'GenerateTests', target = 'run', slug = slug )
+			.params( 'GenerateTests', 'run', slug )
 			.inWorkingDirectory( repoRootPath & '/tasks' )
 			.run();
 
 		// Generate README.md
 		command( 'task run' )
-			.params( taskFile = 'GenerateReadme', target = 'run', slug = slug )
+			.params( 'GenerateReadme', 'run', slug )
 			.inWorkingDirectory( repoRootPath & '/tasks' )
 			.run();
 		
