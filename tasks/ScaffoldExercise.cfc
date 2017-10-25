@@ -79,6 +79,12 @@ component {
 			.params( 'GenerateTests', 'run', slug )
 			.inWorkingDirectory( repoRootPath & '/tasks' )
 			.run();
+
+		// Generate README.md
+		command( 'task run' )
+			.params( 'GenerateReadme', 'run', slug )
+			.inWorkingDirectory( repoRootPath & '/tasks' )
+			.run();
 		
 	}
 	
