@@ -15,7 +15,7 @@ component  {
 		/* Init global variables */
 		repoRootPath = expandPath( getDirectoryFromPath( getCurrentTemplatePath() ) & '../' );
 		problemSpecsPath = expandPath( getDirectoryFromPath( getCurrentTemplatePath() ) & '../../problem-specifications' );
-		trackReadmeInsert= fileRead( repoRootPath & "docs/EXERCISE_README_INSERT.md" );
+		trackReadmeInsert= fileRead( repoRootPath & "docs/EXERCISE_README_INSERT.md", "utf-8" );
 		overwriteExistingFiles = arguments.force;	
 
 		if( !directoryExists( problemSpecsPath ) ){
@@ -65,7 +65,7 @@ component  {
 			readmeContent = readmeContent & "#### Submitting Incomplete Solutions#chr( 10 )#It's possible to submit an incomplete solution so you can see how others have completed the exercise.#chr( 10 )#";
 
 			/* Write the file */
-			fileWrite( readMeFile , readmeContent );
+			fileWrite( readMeFile , readmeContent, "utf-8" );
 
 			print.greenLine( 'Readme generated!' )
 				.indentedYellowLine( readMeFile )
@@ -87,7 +87,7 @@ component  {
 	private function getHints( required string slug ) {
 
 		var hintsFilePath = repoRootPath & "/exercises/" & arguments.slug & "/.meta/hints.md";
-		var hints = fileExists( hintsFilePath ) ? fileRead( hintsFilePath ) : "";
+		var hints = fileExists( hintsFilePath ) ? fileRead( hintsFilePath, "utf-8" ) : "";
 
 		return hints;
 	}
@@ -119,7 +119,7 @@ component  {
 
 		var descriptionFilePath = problemSpecsPath & "/exercises/" & arguments.slug & "/description.md";
 		 
-		return fileExists( descriptionFilePath ) ? trim( fileRead( descriptionFilePath ) ) : "";
+		return fileExists( descriptionFilePath ) ? trim( fileRead( descriptionFilePath, "utf-8" ) ) : "";
 	}
 
 	/**
@@ -163,7 +163,7 @@ component  {
 	private struct function getExerciseMetadata( required string slug ) {
 
 		var metadataFilePath = problemSpecsPath & "/exercises/" & arguments.slug & "/metadata.yml";
-		var content = fileRead(metadataFilePath);
+		var content = fileRead( metadataFilePath , "utf-8");
 		var metadata = {};
 
 		/* Get the title if provided in metadata.yml */
