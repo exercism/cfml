@@ -22,15 +22,11 @@ component extends="testbox.system.BaseSpec" {
 					expect( SUT.abbreviate( phrase='First In,  First Out' ) ).toBe( 'FIFO' );
 				});
 
-				it( 'all caps words', function(){
-					expect( SUT.abbreviate( phrase='PHP: Hypertext Preprocessor' ) ).toBe( 'PHP' );
-				});
-
-				it( 'non-acronym all caps word', function(){
+				it( 'all caps word', function(){
 					expect( SUT.abbreviate( phrase='GNU Image Manipulation Program' ) ).toBe( 'GIMP' );
 				});
 
-				it( 'hyphenated', function(){
+				it( 'punctuation without whitespace', function(){
 					expect( SUT.abbreviate( phrase='Complementary metal-oxide semiconductor' ) ).toBe( 'CMOS' );
 				});
 

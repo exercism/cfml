@@ -3,14 +3,14 @@
 */
 component {
 
-	 function isPangram( input ) {
-	 	// Lowercase input to simplify search
-		input = input.lCase();
+	 function isPangram( sentence ) {
+	 	// Lowercase sentence to simplify search
+		sentence = sentence.lCase();
 		var i = 96;
 		// ASCII codes 97-122 are a-z
 		while( ++i <= 122 ) {
 			// If any letter is missing, then quit
-			if( !input.find( chr( i ) ) ) {
+			if( !sentence.find( chr( i ) ) ) {
 				return false;
 			}
 		}

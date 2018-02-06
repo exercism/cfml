@@ -28,18 +28,6 @@ component extends="testbox.system.BaseSpec" {
 				expect( SUT.toRna( dna='ACGTGGTCTTAA' ) ).toBe( 'UGCACCAGAAUU' );
 			});
 
-			it( 'correctly handles invalid input (RNA instead of DNA)', function(){
-				expect( SUT.toRna( dna='U' ) ).toBeNull();
-			});
-
-			it( 'correctly handles completely invalid DNA input', function(){
-				expect( SUT.toRna( dna='XXX' ) ).toBeNull();
-			});
-
-			it( 'correctly handles partially invalid DNA input', function(){
-				expect( SUT.toRna( dna='ACGTXXXCTTAA' ) ).toBeNull();
-			});
-
 		});
 		
 	}

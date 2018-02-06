@@ -3,11 +3,11 @@
 */
 component {
 
-	 function add( input ) {
+	 function add( birthdate ) {
 	 	// Convert to local time
-	 	input = dateConvert( 'utc2Local', input );
+	 	birthdate = dateConvert( 'utc2Local', birthdate );
 	 	// Add 1 billion seconds
-	 	var newDate = dateAdd( 's', 1000000000, input );
+	 	var newDate = dateAdd( 's', 1000000000, birthdate );
 	 	// Convert back to UTC
 	 	newDate = dateConvert( 'local2Utc', newDate );
 	 	return dateFormat( newDate, 'yyyy-mm-dd' ) & 'T' & timeFormat( newDate, 'HH:mm:ss' ); 

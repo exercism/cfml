@@ -6,7 +6,7 @@ component {
 	/**
 	* @returns 
 	*/
-	 function score( input ) {
+	 function score( word ) {
 		// Implement me here
 	}
 	

@@ -6,7 +6,7 @@ component {
 	/**
 	* @returns 
 	*/
-	function saddlePoints( input ) {
+	function saddlePoints( matrix ) {
 		// Implement me here
 	}
 	

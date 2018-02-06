@@ -3,7 +3,7 @@
 */
 component {
 
-	function score( input ) {
+	function score( word ) {
 		// Set up scoring data
 		var points = {
 			A : 1,
@@ -36,7 +36,7 @@ component {
 		
 		var totalScore = 0;
 		// Loop over each char
-		for( var char in input.listToArray( '' ) ) {
+		for( var char in word.listToArray( '' ) ) {
 			// if it's a valid character
 			if( points.keyExists( char ) ) {
 				// Add in its score

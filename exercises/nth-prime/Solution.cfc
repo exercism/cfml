@@ -3,13 +3,13 @@
 */
 component {
 
-	function prime( input ) {
-		if( input == 0 ) {
-			return false;
+	function prime( number ) {
+		if( number == 0 ) {
+			throw( 'there is no zeroth prime' );
 		}
 		var primes = [];
 		var candidate = 1;
-		while( primes.len() < input ) {
+		while( primes.len() < number ) {
 			candidate ++;
 			if( candidate % 2 == 0 && candidate != 2 ) {
 				continue;

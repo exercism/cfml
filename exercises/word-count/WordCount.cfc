@@ -6,7 +6,7 @@ component {
 	/**
 	* @returns 
 	*/
-	function countwords( input ) {
+	function countwords( sentence ) {
 		// Implement me here
 	}
 	

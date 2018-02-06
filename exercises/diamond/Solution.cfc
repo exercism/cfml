@@ -3,9 +3,9 @@
 */
 component {
 
-	array function rows( input ) {
+	array function rows( letter ) {
 		// Offset from ASCII code for "A"
-		var numChars = asc( input.uCase() ) - 64;
+		var numChars = asc( letter.uCase() ) - 64;
 		var width = ( numChars * 2 ) - 1;
 		var overTheHill = false;
 		var result = [];

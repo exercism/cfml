@@ -6,11 +6,11 @@ component {
 	/**
 	* Parse markdown
 	* 
-	* @input.hint markdown to parse
+	* @markdown.hint markdown to parse
 	*/
-	public string function parse(required string input) {
+	public string function parse(required string markdown) {
 		
-		var lines = listToArray( arguments.input, chr( 10 ) );
+		var lines = listToArray( arguments.markdown, chr( 10 ) );
 		var output = [];
 		var isInList = false;
 
@@ -151,7 +151,7 @@ component {
 		/* Add a p tag to item if no other tag is present */
 		if ( !reFindNoCase("<li><", output ) ) {
 			var pattern = "<li>(.*)</li>";
-			var replacement = "<li><p>\1</p></li>";
+			var replacement = "<li>\1</li>";
 			var output = reReplaceNoCase( output, pattern, replacement );
 		}
 

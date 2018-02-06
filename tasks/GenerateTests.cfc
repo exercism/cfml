@@ -33,7 +33,7 @@ component {
 		}
 				
 		exercises.each( function( slug ) {
-			
+			print.line( 'Starting [#slug#]' ).toConsole();
 			try {
 				
 				// Slug of hello-world defaults to name of HelloWorld
@@ -118,9 +118,13 @@ component {
 	
 	private function generateInput( case ) {
 		var thisInput = '';
-		for( var key in case ) {
-			if( !listFindNoCase( 'description,property,expected,cases,comments', key ) && !isNull( case[ key ] ) ) {
-				thisInput = thisInput.listAppend( "#key#=#escapeString( case[ key ] )#" );
+		if( case.keyExists( 'input' ) ) {
+			if( isStruct( case.input ) ) {
+				for( var key in case.input ) {
+					thisInput = thisInput.listAppend( "#key#=#escapeString( case.input[ key ] )#" );
+				}
+			} else {
+				thisInput = thisInput.listAppend( "input=#escapeString( case.input )#" );				
 			}
 		}
 		if( thisInput.len() ) {
@@ -171,6 +175,14 @@ component {
 		arguments.arg = replaceNoCase( arguments.arg, '\r', chr(13), 'all' );
 		arguments.arg = replaceNoCase( arguments.arg, '\f', chr(12), 'all' );
 		arguments.arg = replaceNoCase( arguments.arg, '\b', chr(8), 'all' );
+		
+		// A null keyword must be preceede dby a , [ : or start of string.  
+		// TODO: This doesn't account for the word "null" inside a quoted string.  I'd need to actually parse the string to detect that.
+		arguments.arg = reReplaceNoCase( arguments.arg, '(,\s*)null', '\1nullValue()', 'all' );
+		arguments.arg = reReplaceNoCase( arguments.arg, '(\[\s*)null', '\1nullValue()', 'all' );
+		arguments.arg = reReplaceNoCase( arguments.arg, '(:\s*)null', '\1nullValue()', 'all' );
+		arguments.arg = reReplaceNoCase( arguments.arg, '^null', 'nullValue()', 'all' );
+		
 		// This doesn't work-- I'd need to do it in a loop and replace each one individually.  Meh...
 		// arguments.arg = reReplaceNoCase( arguments.arg, '\\u([0-9a-f]{4})', chr( inputBaseN( '\1', 16 ) ), 'all' );
 		arguments.arg = replaceNoCase( arguments.arg, '__double_backslash_', '\', 'all' );

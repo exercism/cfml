@@ -6,7 +6,7 @@ component {
 	/**
 	* @returns 
 	*/
-	function response( input ) {
+	function response( heyBob ) {
 		// Implement me here
 	}
 	

@@ -6,7 +6,7 @@ component {
 	/**
 	* @returns 
 	*/
-	 function add( input ) {
+	 function add( birthdate ) {
 		// Implement me here
 	}
 	

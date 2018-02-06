@@ -6,7 +6,7 @@ component {
 	/**
 	* @returns 
 	*/
-	function translate( input ) {
+	function translate( phrase ) {
 		// Implement me here
 	}
 	
