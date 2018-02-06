@@ -72,7 +72,7 @@ component  {
 				.toConsole();
 		}
 		else {
-			print.redLine("README.md already exists! Use the overwrite=true to overwrite the file.")
+			print.redLine("README.md already exists! Use the :force=true flag to overwrite the file.")
 				.indentedYellowLine( readMeFile )
 				.toConsole();
 		}
