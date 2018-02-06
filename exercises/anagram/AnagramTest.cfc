@@ -12,14 +12,6 @@ component extends="testbox.system.BaseSpec" {
 				expect( SUT.anagrams( subject='diaper', candidates=["hello", "world", "zombies", "pants"] ) ).toBe( [] );
 			});
 
-			it( 'detects simple anagram', function(){
-				expect( SUT.anagrams( subject='ant', candidates=["tan", "stand", "at"] ) ).toBe( ["tan"] );
-			});
-
-			it( 'does not detect false positives', function(){
-				expect( SUT.anagrams( subject='galea', candidates=["eagle"] ) ).toBe( [] );
-			});
-
 			it( 'detects two anagrams', function(){
 				expect( SUT.anagrams( subject='master', candidates=["stream", "pigeon", "maters"] ) ).toBe( ["stream","maters"] );
 			});
@@ -36,10 +28,6 @@ component extends="testbox.system.BaseSpec" {
 				expect( SUT.anagrams( subject='allergy', candidates=["gallery", "ballerina", "regally", "clergy", "largely", "leading"] ) ).toBe( ["gallery","regally","largely"] );
 			});
 
-			it( 'does not detect identical words', function(){
-				expect( SUT.anagrams( subject='corn', candidates=["corn", "dark", "Corn", "rank", "CORN", "cron", "park"] ) ).toBe( ["cron"] );
-			});
-
 			it( 'does not detect non-anagrams with identical checksum', function(){
 				expect( SUT.anagrams( subject='mass', candidates=["last"] ) ).toBe( [] );
 			});
@@ -54,10 +42,6 @@ component extends="testbox.system.BaseSpec" {
 
 			it( 'detects anagrams using case-insensitive possible matches', function(){
 				expect( SUT.anagrams( subject='orchestra', candidates=["cashregister", "Carthorse", "radishes"] ) ).toBe( ["Carthorse"] );
-			});
-
-			it( 'does not detect a word as its own anagram', function(){
-				expect( SUT.anagrams( subject='banana', candidates=["Banana"] ) ).toBe( [] );
 			});
 
 			it( 'does not detect a anagram if the original word is repeated', function(){

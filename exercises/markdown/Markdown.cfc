@@ -6,9 +6,9 @@ component {
 	/**
 	* @returns
 	*/
-	function parse(required string input) {
+	function parse(required string markdown) {
 		
-		var lines = listToArray( arguments.input, chr( 10 ) );
+		var lines = listToArray( arguments.markdown, chr( 10 ) );
 		var output = [];
 
 		var isInList = false;
@@ -49,7 +49,7 @@ component {
 						line = "<ul><li>" & trim( replace( matches[1], "*", "", "all" ) ) & "</li>";
 					} 
 					else {
-						line = "<ul><li><p>" & trim( replace( matches[1], "*", "", "all" ) ) & "</p></li>";
+						line = "<ul><li>" & trim( replace( matches[1], "*", "", "all" ) ) & "</li>";
 					}
 
 				} 
@@ -79,7 +79,7 @@ component {
 						line = "<li>" & trim( replace( matches[1], "*", "", "all" ) ) & "</li>";
 					} 
 					else {
-						line = "<li><p>" & trim( replace( matches[1], "*", "", "all" ) ) & "</p></li>";
+						line = "<li>" & trim( replace( matches[1], "*", "", "all" ) ) & "</li>";
 					}
 				}
 			} 

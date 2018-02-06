@@ -6,11 +6,12 @@ component extends="testbox.system.BaseSpec" {
 
 	function run(){
 	
-		describe( "My HelloWorld class", function(){
-			
-			it( "should greet the world", function(){
-				expect( SUT.helloworld() ).toBe( 'Hello, world!' );
+		describe( "My HelloWorld class", function(){			
+
+			it( 'Say Hi!', function(){
+				expect( SUT.hello() ).toBe( 'Hello, World!' );
 			});
+
 		});
 		
 	}

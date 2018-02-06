@@ -7,7 +7,6 @@ Techies love their TLA (Three Letter Acronyms)!
 Help generate some jargon by writing a program that converts a long name
 like Portable Network Graphics to its acronym (PNG).
 
-
 * * * *
 
 To run the code in this exercise, you will only need to have [CommandBox CLI installed](https://ortus.gitbooks.io/commandbox-documentation/content/setup/installation.html).  This binary runs CFML code from the command line.

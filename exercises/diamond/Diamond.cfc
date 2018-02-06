@@ -6,7 +6,7 @@ component {
 	/**
 	* @returns 
 	*/
-	array function rows( input ) {
+	array function rows( letter ) {
 		// Implement me here
 	}
 	

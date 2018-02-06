@@ -8,7 +8,7 @@ component {
 	*
 	* @returns A boolean for whether the inputted year is true or false
 	*/
-	 function isLeapYear( year ) {
+	 function leapYear( year ) {
 		// Implement me here
 	}
 	

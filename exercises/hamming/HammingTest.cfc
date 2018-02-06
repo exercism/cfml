@@ -41,11 +41,11 @@ component extends="testbox.system.BaseSpec" {
 			});
 
 			it( 'non-unique character in first strand', function(){
-				expect( SUT.distance( strand1='AGA', strand2='AGG' ) ).toBe( '1' );
+				expect( SUT.distance( strand1='AAG', strand2='AAA' ) ).toBe( '1' );
 			});
 
 			it( 'non-unique character in second strand', function(){
-				expect( SUT.distance( strand1='AGG', strand2='AGA' ) ).toBe( '1' );
+				expect( SUT.distance( strand1='AAA', strand2='AAG' ) ).toBe( '1' );
 			});
 
 			it( 'same nucleotides in different positions', function(){

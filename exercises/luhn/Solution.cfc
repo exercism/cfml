@@ -3,25 +3,25 @@
 */
 component {
 
-	function valid( input ) {
+	function valid( value ) {
 		// Remove whitespace
-		input = input.reReplace( '\s', '', 'all' );
+		value = value.reReplace( '\s', '', 'all' );
 		
 		// Any non numeric chars means invalid
-		if( input.reFindNoCase( '[^0-9]' ) ) {
+		if( value.reFindNoCase( '[^0-9]' ) ) {
 			return false;
 		}
 		
 		// A single 0 is invalid
-		if( compare( input, '0' ) == 0 ) {
+		if( compare( value, '0' ) == 0 ) {
 			return false;
 		}
 		
 		var accumulator = [];
 		var oddEven = 0;
 		// Loop backwards over the digits
-		for( var i=input.len(); i>0; i-- ) {
-			var digit = input[ i ];
+		for( var i=value.len(); i>0; i-- ) {
+			var digit = value[ i ];
 			// Double every other one
 			if( ++oddEven%2 == 0 ) {
 				var doubleDigit = digit*2;

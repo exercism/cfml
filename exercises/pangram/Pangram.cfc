@@ -6,7 +6,7 @@ component {
 	/**
 	* @returns 
 	*/
-	 function isPangram( input ) {
+	 function isPangram( sentence ) {
 		// Implement me here
 	}
 	

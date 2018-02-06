@@ -16,6 +16,10 @@ component extends="testbox.system.BaseSpec" {
 				expect( SUT.sum( factors=[3, 5], limit='4' ) ).toBe( '3' );
 			});
 
+			it( 'multiples of 3 up to 7', function(){
+				expect( SUT.sum( factors=[3], limit='7' ) ).toBe( '9' );
+			});
+
 			it( 'multiples of 3 or 5 up to 10', function(){
 				expect( SUT.sum( factors=[3, 5], limit='10' ) ).toBe( '23' );
 			});

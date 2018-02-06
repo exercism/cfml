@@ -6,7 +6,7 @@ component {
 	/**
 	* @returns 
 	*/
-	function commands( input ) {
+	function commands( number ) {
 		// Implement me here
 	}
 	

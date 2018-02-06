@@ -3,25 +3,37 @@
 */
 component {
 		
-	function response( input ) {
-		input = input
+	function response( heyBob ) {
+		heyBob = heyBob
 			.trim()
 			.reReplaceNoCase( '[^a-z?]', '' );
 		
-		if( !input.len() ) {
+		if( !heyBob.len() ) {
 			return 'Fine. Be that way!';
 		}
 		
-		if( input.reFindNoCase( '[a-z]' ) && compare( input, input.uCase() ) == 0 ) {
+		if( isScreaming( heyBob ) && isQuestion( heyBob ) ) {
+			return 'Calm down, I know what I''m doing!';
+		}
+		
+		if( isScreaming( heyBob ) ) {
 			return 'Whoa, chill out!';
 		}
 		
-		if( input.right( 1 ) == '?' ) {
+		if( isQuestion( heyBob ) ) {
 			return 'Sure.';
 		}
 		
 		return 'Whatever.';
 		
+	}
+	
+	private function isScreaming( heyBob ) {
+		return heyBob.reFindNoCase( '[a-z]' ) && compare( heyBob, heyBob.uCase() ) == 0;
+	}
+	
+	private function isQuestion( heyBob ) {
+		return heyBob.right( 1 ) == '?';
 	}
 	
 }

@@ -6,7 +6,7 @@ component {
 	/**
 	* @returns 
 	*/
-	function valid( input ) {
+	function valid( value ) {
 		// Implement me here
 	}
 	

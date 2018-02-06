@@ -6,32 +6,24 @@ component extends="testbox.system.BaseSpec" {
 
 	function run(){
 	
-		describe( "My Leap year calculator", function(){
-			
-			it( "should detect a leap year", function(){
-				expect( SUT.isLeapYear( 1996 ) ).toBeTrue();
+		describe( "My Leap class", function(){			
+
+			it( 'year not divisible by 4: common year', function(){
+				expect( SUT.leapYear( year='2015' ) ).toBeFalse();
 			});
-			
-			it( "should detect a non-leap year", function(){
-				expect( SUT.isLeapYear( 1997 ) ).toBeFalse();
+
+			it( 'year divisible by 4, not divisible by 100: leap year', function(){
+				expect( SUT.leapYear( year='1996' ) ).toBeTrue();
 			});
-			
-			it( "should detect a non-leap even year", function(){
-				expect( SUT.isLeapYear( 1998 ) ).toBeFalse();
+
+			it( 'year divisible by 100, not divisible by 400: common year', function(){
+				expect( SUT.leapYear( year='2100' ) ).toBeFalse();
 			});
-			
-			it( "should detect a century", function(){
-				expect( SUT.isLeapYear( 1900 ) ).toBeFalse();
+
+			it( 'year divisible by 400: leap year', function(){
+				expect( SUT.leapYear( year='2000' ) ).toBeTrue();
 			});
-			
-			it( "should detect a fourth century", function(){
-				expect( SUT.isLeapYear( 2400 ) ).toBeTrue();
-			});
-			
-			it( "should detect Y2K", function(){
-				expect( SUT.isLeapYear( 2000 ) ).toBeTrue();
-			});
-			
+
 		});
 		
 	}

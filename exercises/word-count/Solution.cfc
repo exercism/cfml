@@ -3,8 +3,8 @@
 */
 component {
 		
-	function countwords( input ) {
-		return input
+	function countwords( sentence ) {
+		return sentence
 			// Strip out chars we don't care about
 			.reReplaceNoCase( '[^a-z0-9'' ]', '', 'all' )
 			// Break string into array

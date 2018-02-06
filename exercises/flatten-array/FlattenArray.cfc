@@ -6,7 +6,7 @@ component {
 	/**
 	* @returns 
 	*/
-	function flatten( input ) {
+	function flatten( array ) {
 		// Implement me here
 	}
 	

@@ -6,7 +6,7 @@ component {
 	/**
 	* @returns 
 	*/
-	function prime( input ) {
+	function prime( number ) {
 		// Implement me here
 	}
 	

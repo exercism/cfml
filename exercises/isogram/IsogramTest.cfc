@@ -34,8 +34,8 @@ component extends="testbox.system.BaseSpec" {
 					expect( SUT.isIsogram( input='thumbscrew-japingly' ) ).toBeTrue();
 				});
 
-				it( 'isogram with duplicated non letter character', function(){
-					expect( SUT.isIsogram( input='Hjelmqvist-Gryb-Zock-Pfund-Wax' ) ).toBeTrue();
+				it( 'isogram with duplicated hyphen', function(){
+					expect( SUT.isIsogram( input='six-year-old' ) ).toBeTrue();
 				});
 
 				it( 'made-up name that is an isogram', function(){

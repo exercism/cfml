@@ -3,11 +3,11 @@
 */
 component {
 
-	function flatten( input ) {
+	function flatten( array ) {
 		var accumulator = [];
 		
 		// Loop over items in array
-		input
+		array
 			.each( function( i ) {
 				// Skip nulls
 				if( !isNull( i ) ) {
