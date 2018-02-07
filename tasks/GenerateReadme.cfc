@@ -15,7 +15,7 @@ component  {
 		/* Init global variables */
 		repoRootPath = expandPath( getDirectoryFromPath( getCurrentTemplatePath() ) & '../' );
 		problemSpecsPath = expandPath( getDirectoryFromPath( getCurrentTemplatePath() ) & '../../problem-specifications' );
-		trackReadmeInsert= fileRead( repoRootPath & "docs/EXERCISE_README_INSERT.md", "utf-8" );
+		trackReadmeInsert= fileRead( repoRootPath & "config/exercise-readme-insert.md", "utf-8" );
 		overwriteExistingFiles = arguments.force;	
 
 		if( !directoryExists( problemSpecsPath ) ){
