@@ -22,7 +22,7 @@
 
 * [CF Docs](https://cfdocs.org/)
 * [Try CF](https://www.trycf.com/)
-* [ColdBox MVC](https://coldbox.ortusbooks.com/content/full/getting_started_guide/)
+* [ColdBox MVC](https://coldbox.ortusbooks.com/getting-started/getting-started-guide/)
 * [CFWheels  MVC](https://cfwheels.org/)
 * [FW/1 MVC](http://framework-one.github.io/documentation/)
 * [CommandBox CLI](https://ortus.gitbooks.io/commandbox-documentation/content/getting_started_guide.html)
