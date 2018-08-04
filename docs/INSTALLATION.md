@@ -1,8 +1,8 @@
 ## Installation
 
-The only thing you will need to run these exercises is [CommandBox CLI](https://ortus.gitbooks.io/commandbox-documentation/content/getting_started_guide.html) and [Java 7+](https://java.com/en/download/) installed.  CommandBox CLI is supported on Mac, Linux, and Windows, and the installation guide can be found here:
+The only thing you will need to run these exercises is [CommandBox CLI](https://commandbox.ortusbooks.com/getting-started-guide) and [Java 8](https://java.com/en/download/) installed.  CommandBox CLI is supported on Mac, Linux, and Windows, and the installation guide can be found here:
 
-[https://ortus.gitbooks.io/commandbox-documentation/content/setup/installation.html](https://ortus.gitbooks.io/commandbox-documentation/content/setup/installation.html)
+[https://commandbox.ortusbooks.com/setup/installation](https://commandbox.ortusbooks.com/setup/installation)
 
 An example of getting CommandBox CLI setup if you're a Homebrew user on Mac would be:
 
