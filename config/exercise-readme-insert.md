@@ -1,6 +1,6 @@
 * * * *
 
-To run the code in this exercise, you will only need to have [CommandBox CLI installed](https://ortus.gitbooks.io/commandbox-documentation/content/setup/installation.html).  This binary runs CFML code from the command line.
+To run the code in this exercise, you will only need to have [CommandBox CLI installed](https://commandbox.ortusbooks.com/setup/installation).  This binary runs CFML code from the command line.
 
 To run the tests, `cd` into the exercise folder and run the following:
 
