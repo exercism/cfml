@@ -45,7 +45,9 @@
       "core": false,
       "unlocked_by": null,
       "difficulty": 1,
-      "topics": null
+      "topics": [
+        "math"
+      ]
     },
     {
       "slug": "secret-handshake",
@@ -109,7 +111,9 @@
       "core": false,
       "unlocked_by": null,
       "difficulty": 1,
-      "topics": null
+      "topics": [
+        "math"
+      ]
     },
     {
       "slug": "luhn",
@@ -133,7 +137,9 @@
       "core": false,
       "unlocked_by": null,
       "difficulty": 1,
-      "topics": null
+      "topics": [
+        "math"
+      ]
     },
     {
       "slug": "grains",
@@ -157,7 +163,9 @@
       "core": false,
       "unlocked_by": null,
       "difficulty": 1,
-      "topics": null
+      "topics": [
+        "math"
+      ]
     },
     {
       "slug": "pig-latin",
