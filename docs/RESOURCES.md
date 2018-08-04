@@ -25,5 +25,5 @@
 * [ColdBox MVC](https://coldbox.ortusbooks.com/getting-started/getting-started-guide/)
 * [CFWheels  MVC](https://cfwheels.org/)
 * [FW/1 MVC](http://framework-one.github.io/documentation/)
-* [CommandBox CLI](https://ortus.gitbooks.io/commandbox-documentation/content/getting_started_guide.html)
+* [CommandBox CLI](https://commandbox.ortusbooks.com/getting-started-guide)
 * [ForgeBox Package repo](https://www.forgebox.io/)
