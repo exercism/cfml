@@ -34,4 +34,4 @@ Here are some guides for learning more about CFML
 * [Modern ColdFusion (CFML) in 100 Minutes](https://www.gitbook.com/book/ortus/modern-coldfusion-cfml-in-100-minutes/details)
 * [CF SCript Cheatsheet](http://www.petefreitag.com/cheatsheets/coldfusion/cfscript/)
 * [Learn CF In A Week](http://www.learncfinaweek.com/)
-* [CommandBox CLI Getting Started Guide](https://ortus.gitbooks.io/commandbox-documentation/content/getting_started_guide.html)
+* [CommandBox CLI Getting Started Guide](https://commandbox.ortusbooks.com/getting-started-guide)
