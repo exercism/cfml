@@ -1,5 +1,6 @@
 {
   "language": "CFML",
+  "slug": "cfml",
   "active": true,
   "status": {
     "concept_exercises": false,
