@@ -18,6 +18,7 @@
   "solution_pattern": "Solution.cfc",
   "test_pattern": "Test.cfc",
   "exercises": {
+    "concept": [],
     "practice": [
       {
         "slug": "acronym",
