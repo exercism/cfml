@@ -24,6 +24,7 @@
         "slug": "acronym",
         "name": "Acronym",
         "uuid": "9894F2F7-2DBE-4001-885B-FD2C029C6731",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": null
@@ -32,6 +33,7 @@
         "slug": "anagram",
         "name": "Anagram",
         "uuid": "339BACAD-F08F-48EE-8DE9-234D4399B49B",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": null
@@ -40,6 +42,7 @@
         "slug": "atbash-cipher",
         "name": "Atbash Cipher",
         "uuid": "C35391BD-900F-4756-8DFE-A96EA04250F8",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": null
@@ -48,6 +51,7 @@
         "slug": "bob",
         "name": "Bob",
         "uuid": "12BBECF4-93EB-40F2-AC13-8CF28B550F0A",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": null
@@ -56,6 +60,7 @@
         "slug": "diamond",
         "name": "Diamond",
         "uuid": "DECA4C79-DA5D-43A8-90B8-3A5BE73EAFF5",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": null
@@ -64,6 +69,7 @@
         "slug": "difference-of-squares",
         "name": "Difference Of Squares",
         "uuid": "4E91AD44-8F3D-40DC-899E-253C91B134F6",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": [
@@ -74,6 +80,7 @@
         "slug": "flatten-array",
         "name": "Flatten Array",
         "uuid": "B0E72A09-49E2-4973-BFF4-88C678F4BE55",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": null
@@ -82,6 +89,7 @@
         "slug": "gigasecond",
         "name": "Gigasecond",
         "uuid": "00B82E7F-804C-4401-BB7F-0565DEA02567",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": null
@@ -90,6 +98,7 @@
         "slug": "grains",
         "name": "Grains",
         "uuid": "E25686EE-B888-4533-86C2-5A5D96F5270E",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": null
@@ -98,6 +107,7 @@
         "slug": "hamming",
         "name": "Hamming",
         "uuid": "4063A554-424C-4173-81EE-FEAC7CC51E8A",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": null
@@ -106,6 +116,7 @@
         "slug": "hello-world",
         "name": "Hello World",
         "uuid": "ab04a390-0969-4a17-8081-c852b23ed88c",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": null
@@ -114,6 +125,7 @@
         "slug": "isogram",
         "name": "Isogram",
         "uuid": "FC8922A3-E29D-451D-9947-A2781C0FF787",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": null
@@ -122,6 +134,7 @@
         "slug": "largest-series-product",
         "name": "Largest Series Product",
         "uuid": "A35C9BE1-F26A-40C8-8C05-99C33C552E6F",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": [
@@ -132,6 +145,7 @@
         "slug": "leap",
         "name": "Leap",
         "uuid": "03a98e5b-03b7-45e5-a580-611ef5dab4e5",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": null
@@ -140,6 +154,7 @@
         "slug": "luhn",
         "name": "Luhn",
         "uuid": "685ADB7B-1DC9-4409-993D-51034DF6F744",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": null
@@ -148,6 +163,7 @@
         "slug": "nth-prime",
         "name": "Nth Prime",
         "uuid": "15151E41-195C-40DD-B296-C2C19B38CAEA",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": [
@@ -158,6 +174,7 @@
         "slug": "pangram",
         "name": "Pangram",
         "uuid": "113A2FF7-E72E-49DD-A2CF-0EB25894707D",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": null
@@ -166,6 +183,7 @@
         "slug": "pig-latin",
         "name": "Pig Latin",
         "uuid": "3FDDA0E3-AE90-4834-B6DC-A5E367A5A029",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": null
@@ -174,6 +192,7 @@
         "slug": "raindrops",
         "name": "Raindrops",
         "uuid": "9273C0A7-CB7E-4F3F-8993-F1621CE1F700",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": null
@@ -182,6 +201,7 @@
         "slug": "rna-transcription",
         "name": "Rna Transcription",
         "uuid": "11C48AFF-4A54-4B3C-AF5E-53048D4BA98B",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": null
@@ -190,6 +210,7 @@
         "slug": "saddle-points",
         "name": "Saddle Points",
         "uuid": "063C4BB9-3280-4C69-B164-237732AE00EF",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": null
@@ -198,6 +219,7 @@
         "slug": "scrabble-score",
         "name": "Scrabble Score",
         "uuid": "1065F8DF-E6C6-4473-A633-4FA4B49A5314",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": null
@@ -206,6 +228,7 @@
         "slug": "secret-handshake",
         "name": "Secret Handshake",
         "uuid": "0AC79782-B370-4954-8455-6300A734E1B8",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": null
@@ -214,6 +237,7 @@
         "slug": "space-age",
         "name": "Space Age",
         "uuid": "0B14F23A-DAD4-4965-8ABD-8A107DFD6C00",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": null
@@ -222,6 +246,7 @@
         "slug": "sum-of-multiples",
         "name": "Sum Of Multiples",
         "uuid": "C6F38ACB-A6BD-41EE-A2F8-A9680B3F61D2",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": [
@@ -232,6 +257,7 @@
         "slug": "triangle",
         "name": "Triangle",
         "uuid": "8D0FA71A-3314-432E-BF1F-E6A5F823FC36",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": null
@@ -240,6 +266,7 @@
         "slug": "word-count",
         "name": "Word Count",
         "uuid": "C61E97BE-6C66-4F1F-87ED-D21C4ED2A8E2",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": null
@@ -248,6 +275,7 @@
         "slug": "markdown",
         "name": "Markdown",
         "uuid": "4594B907-8080-4A23-AD06-BE85FC28D088",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 5,
         "topics": null
