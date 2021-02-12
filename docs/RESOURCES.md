@@ -1,4 +1,4 @@
-## Recommended Resources
+# Recommended Resources
 
 ### Learning
 * [Modern ColdFusion (CFML) in 100 Minutes](https://www.gitbook.com/book/ortus/modern-coldfusion-cfml-in-100-minutes/details)

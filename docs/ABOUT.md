@@ -1,3 +1,5 @@
+# About
+
 ColdFusion (CFML) is a JVM scripting language whose syntax is similar to C or JavaScript. 
 It JIT compiles to byte code that runs on the JVM but is dynamic and loosely typed, making it fast and easy to develop in. 
 CF is a multi-paradigmed language, supporting classical OO and functional programming.
