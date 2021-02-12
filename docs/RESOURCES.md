@@ -1,16 +1,16 @@
 # Recommended Resources
 
-### Learning
+## Learning
 * [Modern ColdFusion (CFML) in 100 Minutes](https://www.gitbook.com/book/ortus/modern-coldfusion-cfml-in-100-minutes/details)
 * [CF SCript Cheatsheet](http://www.petefreitag.com/cheatsheets/coldfusion/cfscript/)
 * [Learn CF In A Week](http://www.learncfinaweek.com/)
 
-### CF Engines
+## CF Engines
 
 * [Lucee Server](http://lucee.org/) - A free open source CFML engine
 * [Adobe ColdFusion](http://www.adobe.com/products/coldfusion-family.html) - A commercially supported Enterprise CF engine  
 
-### Online Communities
+## Online Communities
 
 * [CFML Slack](https://cfml-slack.herokuapp.com/)
 * [Stack Overflow](https://stackoverflow.com/questions/tagged/coldfusion)
@@ -18,7 +18,7 @@
 * [Lucee Server Discourse Forum](https://dev.lucee.org/)
 * [Twitter](https://twitter.com/search?q=coldfusion&src=typd)
 
-### Tools
+## Tools
 
 * [CF Docs](https://cfdocs.org/)
 * [Try CF](https://www.trycf.com/)
