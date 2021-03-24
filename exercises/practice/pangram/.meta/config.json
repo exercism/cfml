@@ -1,6 +1,11 @@
 {
   "blurb": "Determine if a sentence is a pangram.",
-  "authors": [],
+  "authors": [
+    "bdw429s"
+  ],
+  "contributors": [
+    "kytrinyx"
+  ],
   "files": {
     "solution": [],
     "test": [],
