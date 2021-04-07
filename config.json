@@ -17,6 +17,20 @@
   "ignore_pattern": "Solution",
   "solution_pattern": "Solution.cfc",
   "test_pattern": "Test.cfc",
+  "files": {
+    "solution": [
+      "%{pascal_slug}.cfc"
+    ],
+    "test": [
+      "%{pascal_slug}Test.cfc"
+    ],
+    "example": [
+      "Solution.cfc"
+    ],
+    "exemplar": [
+      ".meta/Exemplar.cfc"
+    ]
+  },
   "exercises": {
     "concept": [],
     "practice": [
