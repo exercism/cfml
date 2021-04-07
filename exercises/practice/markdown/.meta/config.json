@@ -2,8 +2,14 @@
   "blurb": "Refactor a Markdown parser",
   "authors": [],
   "files": {
-    "solution": [],
-    "test": [],
-    "example": []
+    "solution": [
+      "Markdown.cfc"
+    ],
+    "test": [
+      "MarkdownTest.cfc"
+    ],
+    "example": [
+      "Solution.cfc"
+    ]
   }
 }
