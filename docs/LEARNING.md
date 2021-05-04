@@ -1,4 +1,4 @@
-## Recommended Learning Resources
+# Recommended Learning Resources
 
 Welcome to learning ColdFusion (CFML)!  CFML is a dynamic and loosely typed JVM scripting language.  It has two different file types. `.cfm` files (ColdFusion markup)_ are purely procedural and use the tag-based syntax for templating out HTML.  You would use these for views if building a web site:
 

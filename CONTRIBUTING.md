@@ -1,4 +1,4 @@
-## Contributing to the ColdFusion Exercism Track
+# Contributing to the ColdFusion Exercism Track
 
 Welcome to the ColdFusion Exercism track!  We are happy you want to help out and would love to have your contributions.  Here's some basic steps to get you going:
 

@@ -1,4 +1,4 @@
-## Installation
+# Installation
 
 The only thing you will need to run these exercises is [CommandBox CLI](https://commandbox.ortusbooks.com/getting-started-guide) and [Java 8](https://java.com/en/download/) installed.  CommandBox CLI is supported on Mac, Linux, and Windows, and the installation guide can be found here:
 

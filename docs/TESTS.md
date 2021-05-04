@@ -1,4 +1,4 @@
-## Running Tests
+# Running Tests
 
 To run the test for a given exercise, `cd` into the folder and run the following:
 
