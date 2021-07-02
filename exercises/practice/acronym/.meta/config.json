@@ -1,6 +1,11 @@
 {
   "blurb": "Convert a long phrase to its acronym",
-  "authors": [],
+  "authors": [
+    "bdw429s"
+  ],
+  "contributors": [
+    "kytrinyx"
+  ],
   "files": {
     "solution": [
       "Acronym.cfc"

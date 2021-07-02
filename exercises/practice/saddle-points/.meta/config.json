@@ -1,6 +1,12 @@
 {
   "blurb": "Detect saddle points in a matrix.",
-  "authors": [],
+  "authors": [
+    "bdw429s"
+  ],
+  "contributors": [
+    "kytrinyx",
+    "sjwarner-bp"
+  ],
   "files": {
     "solution": [
       "SaddlePoints.cfc"

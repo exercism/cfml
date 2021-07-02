@@ -1,6 +1,12 @@
 {
   "blurb": "Refactor a Markdown parser",
-  "authors": [],
+  "authors": [
+    "jsteinshouer"
+  ],
+  "contributors": [
+    "bdw429s",
+    "kytrinyx"
+  ],
   "files": {
     "solution": [
       "Markdown.cfc"

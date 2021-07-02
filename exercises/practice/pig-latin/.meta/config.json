@@ -1,6 +1,11 @@
 {
   "blurb": "Implement a program that translates from English to Pig Latin",
-  "authors": [],
+  "authors": [
+    "bdw429s"
+  ],
+  "contributors": [
+    "kytrinyx"
+  ],
   "files": {
     "solution": [
       "PigLatin.cfc"
