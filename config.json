@@ -18,9 +18,6 @@
   "test_runner": {
     "average_run_time": 11.0
   },
-  "ignore_pattern": "Solution",
-  "solution_pattern": "Solution.cfc",
-  "test_pattern": "Test.cfc",
   "files": {
     "solution": [
       "%{pascal_slug}.cfc"
