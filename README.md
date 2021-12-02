@@ -69,7 +69,7 @@ The exercise tests, solutions, and filenames will follow this ColdFusion style g
 
 Here's the TL;DR; version.
 
-* Component names are camel-cased ( `LeapTest.cfc` )
+* Component names are pascal-cased ( `LeapTest.cfc` )
 * Variable names are headless camel-cased ( `greetingService` )
 * Variable names should avoid abbreviations and be descriptive ( `maximumAccountBalance` )
 * Indentation uses a tab character
