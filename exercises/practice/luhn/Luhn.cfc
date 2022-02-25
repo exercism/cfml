@@ -1,5 +1,5 @@
 /**
-* Your implmentation of the Luhn exercise
+* Your implementation of the Luhn exercise
 */
 component {
 	

@@ -1,5 +1,5 @@
 /**
-* Your implmentation of the RnaTranscription exercise
+* Your implementation of the RnaTranscription exercise
 */
 component {
 	

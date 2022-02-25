@@ -1,5 +1,5 @@
 /**
-* Your implmentation of the Bob exercise
+* Your implementation of the Bob exercise
 */
 component {
 	

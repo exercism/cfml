@@ -1,5 +1,5 @@
 /**
-* Your implmentation of the PigLatin exercise
+* Your implementation of the PigLatin exercise
 */
 component {
 	

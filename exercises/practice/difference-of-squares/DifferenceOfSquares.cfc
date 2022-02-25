@@ -1,5 +1,5 @@
 /**
-* Your implmentation of the DifferenceOfSquares exercise
+* Your implementation of the DifferenceOfSquares exercise
 */
 component {
 	

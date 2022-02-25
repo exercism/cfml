@@ -1,5 +1,5 @@
 /**
-* Your implmentation of the Hamming exercise
+* Your implementation of the Hamming exercise
 */
 component {
 	

@@ -1,5 +1,5 @@
 /**
-* Your implmentation of the Pangram exercise
+* Your implementation of the Pangram exercise
 */
 component {
 	

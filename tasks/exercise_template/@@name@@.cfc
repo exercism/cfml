@@ -1,5 +1,5 @@
 /**
-* Your implmentation of the @@name@@ exercise
+* Your implementation of the @@name@@ exercise
 */
 component {
 	

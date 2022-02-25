@@ -1,5 +1,5 @@
 /**
-* Your implmentation of the WordCount exercise
+* Your implementation of the WordCount exercise
 */
 component {
 	

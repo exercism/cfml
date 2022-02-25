@@ -1,5 +1,5 @@
 /**
-* Your implmentation of the Diamond exercise
+* Your implementation of the Diamond exercise
 */
 component {
 	

@@ -1,5 +1,5 @@
 /**
-* Your implmentation of the NthPrime exercise
+* Your implementation of the NthPrime exercise
 */
 component {
 	

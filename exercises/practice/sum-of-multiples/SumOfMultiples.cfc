@@ -1,5 +1,5 @@
 /**
-* Your implmentation of the SumOfMultiples exercise
+* Your implementation of the SumOfMultiples exercise
 */
 component {
 	

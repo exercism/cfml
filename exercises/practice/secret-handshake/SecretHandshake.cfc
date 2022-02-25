@@ -1,5 +1,5 @@
 /**
-* Your implmentation of the SecretHandshake exercise
+* Your implementation of the SecretHandshake exercise
 */
 component {
 	

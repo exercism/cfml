@@ -1,5 +1,5 @@
 /**
-* Your implmentation of the LargestSeriesProduct exercise
+* Your implementation of the LargestSeriesProduct exercise
 */
 component {
 	
