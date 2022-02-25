@@ -1,5 +1,5 @@
 /**
-* Your implmentation of the SaddlePoints exercise
+* Your implementation of the SaddlePoints exercise
 */
 component {
 	

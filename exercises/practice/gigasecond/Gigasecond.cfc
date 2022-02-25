@@ -1,5 +1,5 @@
 /**
-* Your implmentation of the Gigasecond exercise
+* Your implementation of the Gigasecond exercise
 */
 component {
 	

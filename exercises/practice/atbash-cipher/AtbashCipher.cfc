@@ -1,5 +1,5 @@
 /**
-* Your implmentation of the AtbashCipher exercise
+* Your implementation of the AtbashCipher exercise
 */
 component {
 	

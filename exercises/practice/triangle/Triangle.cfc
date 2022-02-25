@@ -1,5 +1,5 @@
 /**
-* Your implmentation of the Triangle exercise
+* Your implementation of the Triangle exercise
 */
 component {
 	

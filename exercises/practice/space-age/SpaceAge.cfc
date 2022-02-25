@@ -1,5 +1,5 @@
 /**
-* Your implmentation of the SpaceAge exercise
+* Your implementation of the SpaceAge exercise
 */
 component {
 	

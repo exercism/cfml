@@ -1,5 +1,5 @@
 /**
-* Your implmentation of the Markdown exercise
+* Your implementation of the Markdown exercise
 */
 component {
 	

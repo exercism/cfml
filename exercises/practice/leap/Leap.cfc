@@ -1,5 +1,5 @@
 /**
-* Your implmentation of the Leap exercise
+* Your implementation of the Leap exercise
 */
 component {
 	

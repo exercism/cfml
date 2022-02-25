@@ -1,5 +1,5 @@
 /**
-* Your implmentation of the FlattenArray exercise
+* Your implementation of the FlattenArray exercise
 */
 component {
 	

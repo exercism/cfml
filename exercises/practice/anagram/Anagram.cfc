@@ -1,5 +1,5 @@
 /**
-* Your implmentation of the Anagram exercise
+* Your implementation of the Anagram exercise
 */
 component {
 	

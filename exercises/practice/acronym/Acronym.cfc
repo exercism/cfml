@@ -1,5 +1,5 @@
 /**
-* Your implmentation of the Acronym exercise
+* Your implementation of the Acronym exercise
 */
 component {
 	

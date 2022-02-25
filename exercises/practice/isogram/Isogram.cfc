@@ -1,5 +1,5 @@
 /**
-* Your implmentation of the Isogram exercise
+* Your implementation of the Isogram exercise
 */
 component {
 	

@@ -1,5 +1,5 @@
 /**
-* Your implmentation of the Grains exercise
+* Your implementation of the Grains exercise
 */
 component {
 	

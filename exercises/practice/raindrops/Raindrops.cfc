@@ -1,5 +1,5 @@
 /**
-* Your implmentation of the Raindrops exercise
+* Your implementation of the Raindrops exercise
 */
 component {
 	

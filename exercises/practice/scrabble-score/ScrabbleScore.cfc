@@ -1,5 +1,5 @@
 /**
-* Your implmentation of the ScrabbleScore exercise
+* Your implementation of the ScrabbleScore exercise
 */
 component {
 	
