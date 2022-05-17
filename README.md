@@ -1,4 +1,4 @@
-# Exercism ColdFusion Track
+# Exercism CFML Track
 
 [![Build Status](https://travis-ci.org/exercism/coldfusion.svg?branch=master)](https://travis-ci.org/exercism/coldfusion)
 
