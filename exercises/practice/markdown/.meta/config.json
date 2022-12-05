@@ -1,5 +1,4 @@
 {
-  "blurb": "Refactor a Markdown parser.",
   "authors": [
     "jsteinshouer"
   ],
@@ -17,5 +16,6 @@
     "example": [
       "Solution.cfc"
     ]
-  }
+  },
+  "blurb": "Refactor a Markdown parser."
 }
