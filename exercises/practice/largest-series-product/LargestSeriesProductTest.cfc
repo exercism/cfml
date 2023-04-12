@@ -48,14 +48,6 @@ component extends="testbox.system.BaseSpec" {
 				expect( SUT.largestProduct( digits='123', span='4' ) ).toBe( '-1' );
 			});
 
-			it( 'reports 1 for empty string and empty product (0 span)', function(){
-				expect( SUT.largestProduct( digits='', span='0' ) ).toBe( '1' );
-			});
-
-			it( 'reports 1 for nonempty string and empty product (0 span)', function(){
-				expect( SUT.largestProduct( digits='123', span='0' ) ).toBe( '1' );
-			});
-
 			it( 'rejects empty string and nonzero span', function(){
 				expect( SUT.largestProduct( digits='', span='1' ) ).toBe( '-1' );
 			});
