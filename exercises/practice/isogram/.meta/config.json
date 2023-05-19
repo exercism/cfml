@@ -13,7 +13,8 @@
       "IsogramTest.cfc"
     ],
     "example": [
-      "Solution.cfc"
+      ".meta/Example.cfc", 
+      ".meta/ExampleTest.cfc"
     ]
   },
   "blurb": "Determine if a word or phrase is an isogram.",

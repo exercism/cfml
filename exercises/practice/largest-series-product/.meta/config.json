@@ -13,7 +13,8 @@
       "LargestSeriesProductTest.cfc"
     ],
     "example": [
-      "Solution.cfc"
+      ".meta/Example.cfc", 
+      ".meta/ExampleTest.cfc"
     ]
   },
   "blurb": "Given a string of digits, calculate the largest product for a contiguous substring of digits of length n.",

@@ -13,7 +13,8 @@
       "NthPrimeTest.cfc"
     ],
     "example": [
-      "Solution.cfc"
+      ".meta/Example.cfc", 
+      ".meta/ExampleTest.cfc"
     ]
   },
   "blurb": "Given a number n, determine what the nth prime is.",

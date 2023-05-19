@@ -13,7 +13,8 @@
       "AcronymTest.cfc"
     ],
     "example": [
-      "Solution.cfc"
+      ".meta/Example.cfc", 
+      ".meta/ExampleTest.cfc"
     ]
   },
   "blurb": "Convert a long phrase to its acronym.",

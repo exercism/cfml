@@ -14,7 +14,8 @@
       "AnagramTest.cfc"
     ],
     "example": [
-      "Solution.cfc"
+      ".meta/Example.cfc", 
+      ".meta/ExampleTest.cfc"
     ]
   },
   "blurb": "Given a word and a list of possible anagrams, select the correct sublist.",

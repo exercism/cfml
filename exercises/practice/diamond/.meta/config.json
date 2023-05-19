@@ -13,7 +13,8 @@
       "DiamondTest.cfc"
     ],
     "example": [
-      "Solution.cfc"
+      ".meta/Example.cfc", 
+      ".meta/ExampleTest.cfc"
     ]
   },
   "blurb": "Given a letter, print a diamond starting with 'A' with the supplied letter at the widest point.",

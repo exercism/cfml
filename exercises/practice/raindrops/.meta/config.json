@@ -13,7 +13,8 @@
       "RaindropsTest.cfc"
     ],
     "example": [
-      "Solution.cfc"
+      ".meta/Example.cfc", 
+      ".meta/ExampleTest.cfc"
     ]
   },
   "blurb": "Convert a number to a string, the content of which depends on the number's factors.",

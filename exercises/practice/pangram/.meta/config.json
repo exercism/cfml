@@ -13,7 +13,8 @@
       "PangramTest.cfc"
     ],
     "example": [
-      "Solution.cfc"
+      ".meta/Example.cfc", 
+      ".meta/ExampleTest.cfc"
     ]
   },
   "blurb": "Determine if a sentence is a pangram.",

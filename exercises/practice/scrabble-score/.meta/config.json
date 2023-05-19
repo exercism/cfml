@@ -13,7 +13,8 @@
       "ScrabbleScoreTest.cfc"
     ],
     "example": [
-      "Solution.cfc"
+      ".meta/Example.cfc", 
+      ".meta/ExampleTest.cfc"
     ]
   },
   "blurb": "Given a word, compute the Scrabble score for that word.",
