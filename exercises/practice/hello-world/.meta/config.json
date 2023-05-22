@@ -10,7 +10,8 @@
       "HelloWorldTest.cfc"
     ],
     "example": [
-      "Solution.cfc"
+      ".meta/Example.cfc", 
+      ".meta/ExampleTest.cfc"
     ]
   },
   "blurb": "The classical introductory exercise. Just say \"Hello, World!\".",

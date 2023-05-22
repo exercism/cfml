@@ -14,7 +14,8 @@
       "HammingTest.cfc"
     ],
     "example": [
-      "Solution.cfc"
+      ".meta/Example.cfc", 
+      ".meta/ExampleTest.cfc"
     ]
   },
   "blurb": "Calculate the Hamming difference between two DNA strands.",

@@ -14,7 +14,8 @@
       "GigasecondTest.cfc"
     ],
     "example": [
-      "Solution.cfc"
+      ".meta/Example.cfc", 
+      ".meta/ExampleTest.cfc"
     ]
   },
   "blurb": "Given a moment, determine the moment that would be after a gigasecond has passed.",

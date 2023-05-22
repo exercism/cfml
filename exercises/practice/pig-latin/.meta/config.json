@@ -13,7 +13,8 @@
       "PigLatinTest.cfc"
     ],
     "example": [
-      "Solution.cfc"
+      ".meta/Example.cfc", 
+      ".meta/ExampleTest.cfc"
     ]
   },
   "blurb": "Implement a program that translates from English to Pig Latin.",

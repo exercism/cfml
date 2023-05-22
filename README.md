@@ -27,11 +27,11 @@ The files for an exercise live in `/exercises/<slug>`. The slug for an exercise 
 
 * `<exercise_name>Test.cfc` - The test suite
 * `<exercise_name>.cfc` - Implementation stub, omitted for the later exercises 
-* `SolutionTest.cfc` - A test suite that runs the Solution
-* `Solution.cfc` - An example solution
 * `TestRunner.cfc` - A CLI task runner to run the unit test with
 * `box.json` - A package descriptor that lists dependencies
 * `index.cfm` - A web-based test runner for students wishing to start a web server  
+* `.meta/Example.cfc` - An example solution
+* `.meta/ExampleTest.cfc` - A test suite that runs the Example solution
 
 ## Running the Tests
 

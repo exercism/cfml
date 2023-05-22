@@ -13,7 +13,8 @@
       "FlattenArrayTest.cfc"
     ],
     "example": [
-      "Solution.cfc"
+      ".meta/Example.cfc", 
+      ".meta/ExampleTest.cfc"
     ]
   },
   "blurb": "Take a nested list and return a single list with all values except nil/null.",

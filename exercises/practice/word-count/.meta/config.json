@@ -13,7 +13,8 @@
       "WordCountTest.cfc"
     ],
     "example": [
-      "Solution.cfc"
+      ".meta/Example.cfc", 
+      ".meta/ExampleTest.cfc"
     ]
   },
   "blurb": "Given a phrase, count the occurrences of each word in that phrase.",
