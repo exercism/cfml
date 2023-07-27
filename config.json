@@ -302,7 +302,7 @@
     {
       "title": "Batteries included",
       "content": "Be productive without installing many packages. Just about anything you need comes bundled.",
-      "icon": "interop"
+      "icon": "productive"
     },
     {
       "title": "Use the power of Java",
@@ -317,7 +317,7 @@
     {
       "title": "JIT compilation",
       "content": "Compiles to byte code and is dynamically evaluated on the Java Virtual Machine.",
-      "icon": "evolving"
+      "icon": "stable"
     },
     {
       "title": "Multi-paradigm",
@@ -326,7 +326,7 @@
     },
     {
       "title": "Built for the web",
-      "content": "Natively convert from HTML to PDF, parse XML, spin up APIs, access databases, or write to S3.",
+      "content": "Easily access databases, natively convert HTML to PDF, parse XML, spin up APIs, or write to S3.",
       "icon": "cross-platform"
     }
     ],
