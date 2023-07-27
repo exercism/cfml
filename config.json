@@ -305,12 +305,12 @@
       "icon": "interop"
     },
     {
-      "title": "Leverage the power of Java",
+      "title": "Use the power of Java",
       "content": "Need something extra? Drop in jars and instantiate Java objects directly.",
       "icon": "powerful"
     },
     {
-      "title": "Robust templating language",
+      "title": "Robust template language",
       "content": "Easy, HTML-like syntax ideal for building a wide variety of web applications.",
       "icon": "tooling"
     },
