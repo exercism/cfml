@@ -328,7 +328,8 @@
       "title": "Built for the web",
       "content": "Natively convert from HTML to PDF, parse XML, spin up APIs, access databases, or write to S3.",
       "icon": "cross-platform"
-    },
+    }
+    ],
   "tags": [
     "paradigm/declarative",
     "typing/dynamic",
