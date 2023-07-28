@@ -298,7 +298,38 @@
     ]
   },
   "concepts": [],
-  "key_features": [],
+  "key_features": [
+    {
+      "title": "Batteries included",
+      "content": "Be productive without installing many packages. Just about anything you need comes bundled.",
+      "icon": "productive"
+    },
+    {
+      "title": "Use the power of Java",
+      "content": "Need something extra? Drop in jars and instantiate Java objects directly.",
+      "icon": "powerful"
+    },
+    {
+      "title": "Robust template language",
+      "content": "Easy, HTML-like syntax ideal for building a wide variety of web applications.",
+      "icon": "tooling"
+    },
+    {
+      "title": "JIT compilation",
+      "content": "Compiles to byte code and is dynamically evaluated on the Java Virtual Machine.",
+      "icon": "stable"
+    },
+    {
+      "title": "Multi-paradigm",
+      "content": "Supports classical Object Oriented as well as functional programming.",
+      "icon": "multi-paradigm"
+    },
+    {
+      "title": "Built for the web",
+      "content": "Easily access databases, natively convert HTML to PDF, parse XML, spin up APIs, or write to S3.",
+      "icon": "cross-platform"
+    }
+    ],
   "tags": [
     "paradigm/declarative",
     "typing/dynamic",
