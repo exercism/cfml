@@ -294,6 +294,15 @@
         "prerequisites": [],
         "difficulty": 5,
         "topics": null
+      },
+      {
+        "slug": "queen-attack",
+        "name": "Queen Attack",
+        "uuid": "1ca52419-bbe0-46fc-892a-56779f396b1c",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": null
       }
     ]
   },
