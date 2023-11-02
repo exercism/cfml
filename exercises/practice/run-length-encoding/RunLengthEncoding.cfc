@@ -10,4 +10,11 @@ component {
 		// Implement me here
 	}
 	
+	/**
+	* @returns
+	*/
+	function decode(input) {
+		// Implement me here
+	}
+	
 }
