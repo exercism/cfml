@@ -296,6 +296,15 @@
         "topics": null
       },
       {
+        "slug": "run-length-encoding",
+        "name": "Run Length Encoding",
+        "uuid": "e8b3987c-387d-4aad-95ac-0452c332a326",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": null
+      },
+      {
         "slug": "queen-attack",
         "name": "Queen Attack",
         "uuid": "1ca52419-bbe0-46fc-892a-56779f396b1c",
