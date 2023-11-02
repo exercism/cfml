@@ -1,0 +1,17 @@
+{
+  "authors": ["colinleach"],
+  "files": {
+    "solution": [
+      "RunLengthEncoding.cfc"
+    ],
+    "test": [
+      "RunLengthEncodingTest.cfc"
+    ],
+    "example": [
+      ".meta/Example.cfc"
+    ]
+  },
+  "blurb": "Implement run-length encoding and decoding.",
+  "source": "Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Run-length_encoding"
+}

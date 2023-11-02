@@ -294,7 +294,17 @@
         "prerequisites": [],
         "difficulty": 5,
         "topics": null
+      },
+      {
+        "slug": "run-length-encoding",
+        "name": "Run Length Encoding",
+        "uuid": "e8b3987c-387d-4aad-95ac-0452c332a326",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": null
       }
+
     ]
   },
   "concepts": [],
