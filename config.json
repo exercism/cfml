@@ -312,6 +312,12 @@
         "prerequisites": [],
         "difficulty": 1,
         "topics": null
+      },
+      {
+        "slug": "resistor-color",
+        "name": "Resistor Color",
+        "uuid": "fd376c87-e682-4afc-b12f-446443a9b57a",
+        "difficulty": 2
       }
     ]
   },
@@ -347,7 +353,7 @@
       "content": "Easily access databases, natively convert HTML to PDF, parse XML, spin up APIs, or write to S3.",
       "icon": "cross-platform"
     }
-    ],
+  ],
   "tags": [
     "paradigm/declarative",
     "typing/dynamic",
