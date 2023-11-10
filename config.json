@@ -33,7 +33,6 @@
     ]
   },
   "exercises": {
-    "concept": [],
     "practice": [
       {
         "slug": "acronym",
@@ -41,8 +40,7 @@
         "uuid": "48751b37-fd1d-4c68-8446-424094d0a3a4",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 1,
-        "topics": null
+        "difficulty": 1
       },
       {
         "slug": "anagram",
@@ -50,8 +48,7 @@
         "uuid": "66f4db9f-f7e8-4323-b4b5-cd6488c02fff",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 1,
-        "topics": null
+        "difficulty": 1
       },
       {
         "slug": "atbash-cipher",
@@ -59,8 +56,7 @@
         "uuid": "a789b9ee-236b-4e5f-a93c-6e819155ef9e",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 1,
-        "topics": null
+        "difficulty": 1
       },
       {
         "slug": "bob",
@@ -68,8 +64,7 @@
         "uuid": "af621681-51c3-4725-a9fa-374a31aec3e8",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 1,
-        "topics": null
+        "difficulty": 1
       },
       {
         "slug": "diamond",
@@ -77,8 +72,7 @@
         "uuid": "a39597c6-348c-472b-94aa-91c0a7affb87",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 1,
-        "topics": null
+        "difficulty": 1
       },
       {
         "slug": "difference-of-squares",
@@ -97,8 +91,7 @@
         "uuid": "618196cb-5850-44a4-be78-807228179848",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 1,
-        "topics": null
+        "difficulty": 1
       },
       {
         "slug": "gigasecond",
@@ -106,8 +99,7 @@
         "uuid": "553ab53d-fc25-4dc7-89a5-1e8bc0296b20",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 1,
-        "topics": null
+        "difficulty": 1
       },
       {
         "slug": "grains",
@@ -115,8 +107,7 @@
         "uuid": "df2190dd-b14c-40e4-af46-116e62f9f0b3",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 1,
-        "topics": null
+        "difficulty": 1
       },
       {
         "slug": "hamming",
@@ -124,8 +115,7 @@
         "uuid": "f60a2044-d773-4665-a789-d1fb4f15bd52",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 1,
-        "topics": null
+        "difficulty": 1
       },
       {
         "slug": "hello-world",
@@ -133,8 +123,7 @@
         "uuid": "ab04a390-0969-4a17-8081-c852b23ed88c",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 1,
-        "topics": null
+        "difficulty": 1
       },
       {
         "slug": "isogram",
@@ -142,8 +131,7 @@
         "uuid": "ea62f03b-9ce8-4f98-8d10-dd4e2a25eb76",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 1,
-        "topics": null
+        "difficulty": 1
       },
       {
         "slug": "largest-series-product",
@@ -162,8 +150,7 @@
         "uuid": "03a98e5b-03b7-45e5-a580-611ef5dab4e5",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 1,
-        "topics": null
+        "difficulty": 1
       },
       {
         "slug": "luhn",
@@ -171,8 +158,7 @@
         "uuid": "528a0cc4-60e6-4521-82ff-237bb13e1b96",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 1,
-        "topics": null
+        "difficulty": 1
       },
       {
         "slug": "nth-prime",
@@ -191,8 +177,7 @@
         "uuid": "583e74df-e27e-48f5-9650-a3a01ed74f4c",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 1,
-        "topics": null
+        "difficulty": 1
       },
       {
         "slug": "pig-latin",
@@ -200,8 +185,7 @@
         "uuid": "600c5e6f-0d5a-48e0-ae89-1048bf22a9df",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 1,
-        "topics": null
+        "difficulty": 1
       },
       {
         "slug": "raindrops",
@@ -209,8 +193,7 @@
         "uuid": "dd187969-069b-421d-996e-053d4e8bd3c8",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 1,
-        "topics": null
+        "difficulty": 1
       },
       {
         "slug": "rna-transcription",
@@ -218,8 +201,7 @@
         "uuid": "76f652f8-bc2a-4a2e-b13b-3bfe3ebbca70",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 1,
-        "topics": null
+        "difficulty": 1
       },
       {
         "slug": "saddle-points",
@@ -227,8 +209,7 @@
         "uuid": "8951bf1a-bd72-4090-9733-b0b6a80f541c",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 1,
-        "topics": null
+        "difficulty": 1
       },
       {
         "slug": "scrabble-score",
@@ -236,8 +217,7 @@
         "uuid": "321a4f91-198c-4a29-85ee-c9bce4a6fff1",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 1,
-        "topics": null
+        "difficulty": 1
       },
       {
         "slug": "secret-handshake",
@@ -245,8 +225,7 @@
         "uuid": "04769d33-feb0-40c0-9b0f-dcbd48303524",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 1,
-        "topics": null
+        "difficulty": 1
       },
       {
         "slug": "space-age",
@@ -254,8 +233,7 @@
         "uuid": "efe65169-28d7-4b29-b27a-cb2e278a1c0f",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 1,
-        "topics": null
+        "difficulty": 1
       },
       {
         "slug": "sum-of-multiples",
@@ -274,8 +252,7 @@
         "uuid": "fe8349b6-9492-47cd-b4d8-c9408c95aff5",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 1,
-        "topics": null
+        "difficulty": 1
       },
       {
         "slug": "word-count",
@@ -283,8 +260,7 @@
         "uuid": "695b56d9-1efc-4968-b581-4de94b89ef16",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 1,
-        "topics": null
+        "difficulty": 1
       },
       {
         "slug": "markdown",
@@ -292,8 +268,7 @@
         "uuid": "33285e71-7966-43e8-8c5b-c3c7d7b42c02",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 5,
-        "topics": null
+        "difficulty": 5
       },
       {
         "slug": "run-length-encoding",
@@ -301,8 +276,7 @@
         "uuid": "e8b3987c-387d-4aad-95ac-0452c332a326",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 1,
-        "topics": null
+        "difficulty": 1
       },
       {
         "slug": "queen-attack",
@@ -310,12 +284,10 @@
         "uuid": "1ca52419-bbe0-46fc-892a-56779f396b1c",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 1,
-        "topics": null
+        "difficulty": 1
       }
     ]
   },
-  "concepts": [],
   "key_features": [
     {
       "title": "Batteries included",
@@ -347,13 +319,13 @@
       "content": "Easily access databases, natively convert HTML to PDF, parse XML, spin up APIs, or write to S3.",
       "icon": "cross-platform"
     }
-    ],
+  ],
   "tags": [
-    "paradigm/declarative",
-    "typing/dynamic",
     "execution_mode/interpreted",
+    "paradigm/declarative",
     "platform/web",
     "runtime/language_specific",
+    "typing/dynamic",
     "used_for/backends",
     "used_for/frontends",
     "used_for/web_development"
