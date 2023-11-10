@@ -10,7 +10,7 @@
       "ResistorColorTest.cfc"
     ],
     "example": [
-      "meta/Example.cfc"
+      ".meta/Example.cfc"
     ]
   },
   "blurb": "Convert a resistor band's color to its numeric representation.",

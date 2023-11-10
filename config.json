@@ -317,6 +317,8 @@
         "slug": "resistor-color",
         "name": "Resistor Color",
         "uuid": "fd376c87-e682-4afc-b12f-446443a9b57a",
+        "practices": [],
+        "prerequisites": [],
         "difficulty": 2
       }
     ]
