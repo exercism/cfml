@@ -312,6 +312,14 @@
         "prerequisites": [],
         "difficulty": 1,
         "topics": null
+      },
+      {
+        "slug": "darts",
+        "name": "Darts",
+        "uuid": "85636c8c-55f6-4890-a6a6-5cbffcbbdd4c",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
       }
     ]
   },
@@ -347,7 +355,7 @@
       "content": "Easily access databases, natively convert HTML to PDF, parse XML, spin up APIs, or write to S3.",
       "icon": "cross-platform"
     }
-    ],
+  ],
   "tags": [
     "paradigm/declarative",
     "typing/dynamic",
