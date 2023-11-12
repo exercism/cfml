@@ -321,11 +321,7 @@
         "difficulty": 1,
         "topics": null
       }
-    ],
-    "difficulty": 2,
-    "slug": "two-fer",
-    "uuid": "4146AD00-CDA6-4F2E-9589-4F84E08BAE88",
-    "topics": []
+    ]
   },
   "concepts": [],
   "key_features": [
@@ -359,7 +355,7 @@
       "content": "Easily access databases, natively convert HTML to PDF, parse XML, spin up APIs, or write to S3.",
       "icon": "cross-platform"
     }
-  ],
+    ],
   "tags": [
     "paradigm/declarative",
     "typing/dynamic",
