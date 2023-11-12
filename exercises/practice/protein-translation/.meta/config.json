@@ -1,0 +1,19 @@
+{
+  "authors": [
+    "BNAndras"
+  ],
+  "files": {
+    "solution": [
+      "ProteinTranslation.cfc"
+    ],
+    "test": [
+      "ProteinTranslationTest.cfc"
+    ],
+    "example": [
+      ".meta/Example.cfc", 
+      ".meta/ExampleTest.cfc"
+    ]
+  },
+  "blurb": "Translate RNA sequences into proteins.",
+  "source": "Tyler Long"
+}
