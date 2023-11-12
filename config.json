@@ -355,7 +355,7 @@
       "content": "Easily access databases, natively convert HTML to PDF, parse XML, spin up APIs, or write to S3.",
       "icon": "cross-platform"
     }
-  ],
+    ],
   "tags": [
     "paradigm/declarative",
     "typing/dynamic",
