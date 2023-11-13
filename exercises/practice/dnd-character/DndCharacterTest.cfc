@@ -2,7 +2,6 @@ component extends="testbox.system.BaseSpec" {
 
 	function beforeAll(){
 	  SUT = createObject( 'DndCharacter' );
-	  WriteDump(SUT);
 	}
 
 	function inRange( score ) {
