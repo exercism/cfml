@@ -312,6 +312,15 @@
         "prerequisites": [],
         "difficulty": 1,
         "topics": null
+      },
+      {
+        "slug": "all-your-base",
+        "name": "All Your Base",
+        "uuid": "acb1791a-3e69-404a-8095-8961e231b0de",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": null
       }
     ]
   },
