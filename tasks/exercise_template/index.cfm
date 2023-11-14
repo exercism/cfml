@@ -33,5 +33,5 @@ CommandBox> task run TestRunner
 	<!--- Include the TestBox HTML Runner --->
 	<cfinclude template="/testbox/system/runners/HTMLRunner.cfm">
 <cfelse>
-	Oops, you don't have TestBox installed yet! Please run <b>box install</b> from the root of your excercise folder and refresh this page.	
+	Oops, you don't have TestBox installed yet! Please run <b>box install</b> from the root of your exercise folder and refresh this page.	
 </cfif>
