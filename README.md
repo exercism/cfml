@@ -1,6 +1,6 @@
 # Exercism CFML Track
 
-[![Build Status](https://travis-ci.org/exercism/coldfusion.svg?branch=master)](https://travis-ci.org/exercism/coldfusion)
+[![Configlet](https://github.com/exercism/cfml/actions/workflows/configlet.yml/badge.svg)](https://github.com/exercism/cfml/actions/workflows/configlet.yml)
 
 Exercism problems in ColdFusion.  There are two major CFML engines in existence:
 
