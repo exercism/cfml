@@ -1,5 +1,7 @@
 {
-  "authors": ["colinleach"],
+  "authors": [
+    "colinleach"
+  ],
   "files": {
     "solution": [
       "RunLengthEncoding.cfc"
