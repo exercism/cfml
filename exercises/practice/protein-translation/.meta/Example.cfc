@@ -27,7 +27,7 @@ component {
 	* @returns 
 	*/
 	function proteins( strand ) {
-		return translate(strand, "")
+		return translate(strand, [])
 	}
 
 	function translate( strand, acc ) {
@@ -52,7 +52,8 @@ component {
 			return acc
 		}
 
-		return translate(Mid(strand, 4, Len(strand) - 3), ListAppend(acc, protein))
+		ArrayAppend(acc, protein)
+		return translate(Mid(strand, 4, Len(strand) - 3), acc)
 	}
 
 }
