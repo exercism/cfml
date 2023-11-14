@@ -12,7 +12,7 @@ component {
 		
 		// Acquire slug
 		if( isNull( arguments.slug ) ) {
-			arguments.slug = ask( 'Exercise slug as defined by Excercism. Ex: "hello-world": ' );
+			arguments.slug = ask( 'Exercise slug as defined by Exercism. Ex: "hello-world": ' );
 		}
 		
 		// Slug of hello-world defaults to name of HelloWorld
