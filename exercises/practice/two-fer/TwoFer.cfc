@@ -6,7 +6,7 @@ component {
 	/**
 	* @returns 
 	*/
-	function twoFer( name="you" ) {
+	function twoFer( name ) {
 		// Implement me here
 	}
 	
