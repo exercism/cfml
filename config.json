@@ -13,7 +13,7 @@
   "online_editor": {
     "indent_style": "space",
     "indent_size": 4,
-    "highlightjs_language": "text"
+    "highlightjs_language": "javascript"
   },
   "test_runner": {
     "average_run_time": 11
@@ -26,7 +26,7 @@
       "%{pascal_slug}Test.cfc"
     ],
     "example": [
-      "Solution.cfc"
+      ".meta/Example.cfc"
     ],
     "exemplar": [
       ".meta/Exemplar.cfc"
@@ -90,6 +90,14 @@
         "topics": [
           "math"
         ]
+      },
+      {
+        "slug": "pop-count",
+        "name": "Eliud's Eggs",
+        "uuid": "1e435e36-82e7-461f-aad7-fbf51d39ba76",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
       },
       {
         "slug": "flatten-array",
@@ -287,6 +295,14 @@
         "topics": null
       },
       {
+        "slug": "resistor-color-duo",
+        "name": "Resistor Color Duo",
+        "uuid": "4a1bd9da-e0d4-445f-8b66-cde7ec4888c8",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
         "slug": "markdown",
         "name": "Markdown",
         "uuid": "33285e71-7966-43e8-8c5b-c3c7d7b42c02",
@@ -320,6 +336,15 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 2
+      },
+      {
+        "slug": "all-your-base",
+        "name": "All Your Base",
+        "uuid": "acb1791a-3e69-404a-8095-8961e231b0de",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": null
       }
     ]
   },
