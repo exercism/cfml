@@ -303,6 +303,14 @@
         "difficulty": 1
       },
       {
+        "slug": "resistor-color",
+        "name": "Resistor Color",
+        "uuid": "fd376c87-e682-4afc-b12f-446443a9b57a",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
         "slug": "all-your-base",
         "name": "All Your Base",
         "uuid": "acb1791a-3e69-404a-8095-8961e231b0de",
