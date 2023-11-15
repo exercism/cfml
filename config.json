@@ -279,14 +279,6 @@
         "difficulty": 1
       },
       {
-        "slug": "resistor-color-duo",
-        "name": "Resistor Color Duo",
-        "uuid": "4a1bd9da-e0d4-445f-8b66-cde7ec4888c8",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 2
-      },
-      {
         "slug": "markdown",
         "name": "Markdown",
         "uuid": "33285e71-7966-43e8-8c5b-c3c7d7b42c02",
@@ -330,6 +322,14 @@
         "slug": "resistor-color",
         "name": "Resistor Color",
         "uuid": "fd376c87-e682-4afc-b12f-446443a9b57a",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
+        "slug": "resistor-color-duo",
+        "name": "Resistor Color Duo",
+        "uuid": "4a1bd9da-e0d4-445f-8b66-cde7ec4888c8",
         "practices": [],
         "prerequisites": [],
         "difficulty": 2
