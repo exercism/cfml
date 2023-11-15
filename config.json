@@ -295,6 +295,14 @@
         "difficulty": 5
       },
       {
+        "slug": "two-fer",
+        "name": "Two Fer",
+        "uuid": "7a64fd35-c6f0-4c0c-90c8-f72bcca77a93",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "run-length-encoding",
         "name": "Run Length Encoding",
         "uuid": "e8b3987c-387d-4aad-95ac-0452c332a326",
