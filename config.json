@@ -343,6 +343,15 @@
         "difficulty": 2
       },
       {
+        "slug": "dnd-character",
+        "name": "Dnd Character",
+        "uuid": "4cfffba1-0f61-4c18-b2a2-7890c1465227",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": null
+      },
+      {
         "slug": "all-your-base",
         "name": "All Your Base",
         "uuid": "acb1791a-3e69-404a-8095-8961e231b0de",
