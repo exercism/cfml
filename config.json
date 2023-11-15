@@ -311,6 +311,14 @@
         "difficulty": 2
       },
       {
+        "slug": "darts",
+        "name": "Darts",
+        "uuid": "85636c8c-55f6-4890-a6a6-5cbffcbbdd4c",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
         "slug": "all-your-base",
         "name": "All Your Base",
         "uuid": "acb1791a-3e69-404a-8095-8961e231b0de",
