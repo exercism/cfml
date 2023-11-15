@@ -1,0 +1,53 @@
+# This workflow will do a clean install of the dependencies and run tests across different versions
+#
+# Replace <track> with the track name
+# Replace <image-name> with an image to run the jobs on
+# Replace <action to setup tooling> with a github action to setup tooling on the image
+# Replace <install dependencies> with a cli command to install the dependencies
+#
+# Find Github Actions to setup tooling here:
+# - https://github.com/actions/?q=setup&type=&language=
+# - https://github.com/actions/starter-workflows/tree/main/ci
+# - https://github.com/marketplace?type=actions&query=setup
+#
+# Requires scripts:
+# - bin/test
+
+name: Test Exercises
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  ci:
+    runs-on: ubuntu-22.04
+
+    steps:
+        - name: Checkout code
+          uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
+    
+        - name: Set up Java
+          uses: actions/setup-java@78078da0cd035d0d177cc2cb696e05d96fba7d11
+          with:
+            distribution: 'adopt'
+            java-version: '8'
+    
+        - name: Cache CommandBox
+          uses: actions/cache@704facf57e6136b1bc63b828d79edcd491f0ee84
+          with:
+            path: |
+              $HOME/.CommandBox
+            key: commandbox-${{ runner.os }}-${{ hashFiles('**/*.box') }}
+    
+        - name: Install CommandBox
+          run: |
+            curl -fsSl https://downloads.ortussolutions.com/debs/gpg | gpg --dearmor | sudo tee /usr/share/keyrings/ortussolutions.gpg > /dev/null
+            echo "deb [signed-by=/usr/share/keyrings/ortussolutions.gpg] https://downloads.ortussolutions.com/debs/noarch /" | sudo tee /etc/apt/sources.list.d/commandbox.list
+            sudo apt-get update && sudo apt-get install apt-transport-https commandbox
+    
+        - name: Run Tests
+          run: |
+            box task run tasks/TestAllSolutions
