@@ -188,6 +188,14 @@
         "difficulty": 1
       },
       {
+        "slug": "protein-translation",
+        "name": "Protein Translation",
+        "uuid": "3d94da82-fba0-48b6-be1e-529d698ecf6a",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
+      },
+      {
         "slug": "pig-latin",
         "name": "Pig Latin",
         "uuid": "600c5e6f-0d5a-48e0-ae89-1048bf22a9df",
