@@ -43,6 +43,14 @@
         "difficulty": 1
       },
       {
+        "slug": "all-your-base",
+        "name": "All Your Base",
+        "uuid": "acb1791a-3e69-404a-8095-8961e231b0de",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "anagram",
         "name": "Anagram",
         "uuid": "66f4db9f-f7e8-4323-b4b5-cd6488c02fff",
@@ -65,6 +73,22 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 1
+      },
+      {
+        "slug": "dnd-character",
+        "name": "D&D Character",
+        "uuid": "4cfffba1-0f61-4c18-b2a2-7890c1465227",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "darts",
+        "name": "Darts",
+        "uuid": "85636c8c-55f6-4890-a6a6-5cbffcbbdd4c",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
       },
       {
         "slug": "diamond",
@@ -180,9 +204,25 @@
         ]
       },
       {
+        "slug": "nucleotide-count",
+        "name": "Nucleotide Count",
+        "uuid": "cd5fd765-2d79-4cb8-b1f0-a5891a149672",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
         "slug": "pangram",
         "name": "Pangram",
         "uuid": "583e74df-e27e-48f5-9650-a3a01ed74f4c",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "pig-latin",
+        "name": "Pig Latin",
+        "uuid": "600c5e6f-0d5a-48e0-ae89-1048bf22a9df",
         "practices": [],
         "prerequisites": [],
         "difficulty": 1
@@ -196,9 +236,9 @@
         "difficulty": 3
       },
       {
-        "slug": "pig-latin",
-        "name": "Pig Latin",
-        "uuid": "600c5e6f-0d5a-48e0-ae89-1048bf22a9df",
+        "slug": "queen-attack",
+        "name": "Queen Attack",
+        "uuid": "1ca52419-bbe0-46fc-892a-56779f396b1c",
         "practices": [],
         "prerequisites": [],
         "difficulty": 1
@@ -212,9 +252,33 @@
         "difficulty": 1
       },
       {
+        "slug": "resistor-color",
+        "name": "Resistor Color",
+        "uuid": "fd376c87-e682-4afc-b12f-446443a9b57a",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
+        "slug": "resistor-color-duo",
+        "name": "Resistor Color Duo",
+        "uuid": "4a1bd9da-e0d4-445f-8b66-cde7ec4888c8",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
         "slug": "rna-transcription",
         "name": "RNA Transcription",
         "uuid": "76f652f8-bc2a-4a2e-b13b-3bfe3ebbca70",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "run-length-encoding",
+        "name": "Run Length Encoding",
+        "uuid": "e8b3987c-387d-4aad-95ac-0452c332a326",
         "practices": [],
         "prerequisites": [],
         "difficulty": 1
@@ -271,6 +335,14 @@
         "difficulty": 1
       },
       {
+        "slug": "two-fer",
+        "name": "Two Fer",
+        "uuid": "7a64fd35-c6f0-4c0c-90c8-f72bcca77a93",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "word-count",
         "name": "Word Count",
         "uuid": "695b56d9-1efc-4968-b581-4de94b89ef16",
@@ -285,79 +357,6 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 5
-      },
-      {
-        "slug": "two-fer",
-        "name": "Two Fer",
-        "uuid": "7a64fd35-c6f0-4c0c-90c8-f72bcca77a93",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 1
-      },
-      {
-        "slug": "run-length-encoding",
-        "name": "Run Length Encoding",
-        "uuid": "e8b3987c-387d-4aad-95ac-0452c332a326",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 1
-      },
-      {
-        "slug": "nucleotide-count",
-        "name": "Nucleotide Count",
-        "uuid": "cd5fd765-2d79-4cb8-b1f0-a5891a149672",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 2
-      },
-      {
-        "slug": "queen-attack",
-        "name": "Queen Attack",
-        "uuid": "1ca52419-bbe0-46fc-892a-56779f396b1c",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 1
-      },
-      {
-        "slug": "resistor-color",
-        "name": "Resistor Color",
-        "uuid": "fd376c87-e682-4afc-b12f-446443a9b57a",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 2
-      },
-      {
-        "slug": "resistor-color-duo",
-        "name": "Resistor Color Duo",
-        "uuid": "4a1bd9da-e0d4-445f-8b66-cde7ec4888c8",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 2
-      },
-      {
-        "slug": "darts",
-        "name": "Darts",
-        "uuid": "85636c8c-55f6-4890-a6a6-5cbffcbbdd4c",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 2
-      },
-      {
-        "slug": "dnd-character",
-        "name": "D&D Character",
-        "uuid": "4cfffba1-0f61-4c18-b2a2-7890c1465227",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 1,
-        "topics": null
-      },
-      {
-        "slug": "all-your-base",
-        "name": "All Your Base",
-        "uuid": "acb1791a-3e69-404a-8095-8961e231b0de",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 1
       }
     ]
   },
