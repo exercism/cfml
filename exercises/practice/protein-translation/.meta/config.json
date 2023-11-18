@@ -10,7 +10,7 @@
       "ProteinTranslationTest.cfc"
     ],
     "example": [
-      ".meta/Example.cfc", 
+      ".meta/Example.cfc",
       ".meta/ExampleTest.cfc"
     ]
   },
