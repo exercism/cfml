@@ -1,6 +1,6 @@
 # Exercism CFML Track
 
-[![Configlet](https://github.com/exercism/cfml/actions/workflows/configlet.yml/badge.svg)](https://github.com/exercism/cfml/actions/workflows/configlet.yml)
+[![Configlet](https://github.com/exercism/cfml/actions/workflows/configlet.yml/badge.svg)](https://github.com/exercism/cfml/actions/workflows/configlet.yml) [![Test Exercises](https://github.com/exercism/cfml/actions/workflows/test.yml/badge.svg)](https://github.com/exercism/cfml/actions/workflows/test.yml)
 
 Exercism problems in ColdFusion.  There are two major CFML engines in existence:
 
