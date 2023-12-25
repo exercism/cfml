@@ -126,6 +126,14 @@
         "difficulty": 1
       },
       {
+        "slug": "etl",
+        "name": "ETL",
+        "uuid": "562a030c-681d-4e53-85eb-c181e73ac950",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
         "slug": "flatten-array",
         "name": "Flatten Array",
         "uuid": "618196cb-5850-44a4-be78-807228179848",
