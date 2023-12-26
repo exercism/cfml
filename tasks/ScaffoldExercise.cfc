@@ -29,18 +29,20 @@ component {
 		}
 
 		// Validation to prevent duplicate runs
-		var exerciseDirectory = repoRootPath & 'exercises/' & arguments.slug;
+		var exerciseDirectory = repoRootPath & 'exercises/practice/' & arguments.slug;
 		if( directoryExists( exerciseDirectory ) ) {
 			error( 'An exercise named [#arguments.slug#] already exists!' );
 		}
 
 		// Add this exercise to config.json
 		var configJSON = deserializeJSON( fileRead( repoRootPath & '/config.json' ) );
-		configJSON.exercises.append( {
-			"uuid": arguments.uuid,
-			"difficulty": arguments.difficulty+0,
+		configJSON.exercises.practice.append( {
 			"slug": arguments.slug,
-			"topics": []
+			"name": arguments.slug,
+			"uuid": arguments.uuid,
+			"practices": [],
+			"prerequisites": [],
+			"difficulty": arguments.difficulty+0,
 		} );		
 		fileWrite( repoRootPath & '/config.json', formatterUtil.formatJSON( json=configJSON, indent='  ' , lineEnding=chr( 10 ), spaceAfterColon=true ) );
 
@@ -79,13 +81,6 @@ component {
 			.params( 'GenerateTests', 'run', slug )
 			.inWorkingDirectory( repoRootPath & '/tasks' )
 			.run();
-
-		// Generate README.md
-		command( 'task run' )
-			.params( 'GenerateReadme', 'run', slug )
-			.inWorkingDirectory( repoRootPath & '/tasks' )
-			.run();
-		
 	}
 	
 }
