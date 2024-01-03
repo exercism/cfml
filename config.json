@@ -333,9 +333,9 @@
       },
       {
         "slug": "secret-handshake",
-        "practices": [],
         "name": "Secret Handshake",
         "uuid": "04769d33-feb0-40c0-9b0f-dcbd48303524",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1
       },
