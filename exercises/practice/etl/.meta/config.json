@@ -1,0 +1,19 @@
+{
+  "authors": [
+    "BNAndras"
+  ],
+  "files": {
+    "solution": [
+      "Etl.cfc"
+    ],
+    "test": [
+      "EtlTest.cfc"
+    ],
+    "example": [
+      ".meta/Example.cfc"
+    ]
+  },
+  "blurb": "Change the data format for scoring a game to more easily add other languages.",
+  "source": "Based on an exercise by the JumpstartLab team for students at The Turing School of Software and Design.",
+  "source_url": "https://turing.edu"
+}
