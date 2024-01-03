@@ -332,6 +332,14 @@
         "difficulty": 1
       },
       {
+        "slug": "strain",
+        "name": "Strain",
+        "uuid": "5a1a2fa9-e8d0-4784-ba0c-c53fb8405e26",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
         "slug": "sum-of-multiples",
         "name": "Sum of Multiples",
         "uuid": "9d4fd39d-ae05-431a-8d71-5b5028595487",
