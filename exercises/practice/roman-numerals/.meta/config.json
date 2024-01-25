@@ -1,0 +1,19 @@
+{
+  "authors": [
+    "BNAndras"
+  ],
+  "files": {
+    "solution": [
+      "RomanNumerals.cfc"
+    ],
+    "test": [
+      "RomanNumeralsTest.cfc"
+    ],
+    "example": [
+      ".meta/Example.cfc"
+    ]
+  },
+  "blurb": "Write a function to convert from normal numbers to Roman Numerals.",
+  "source": "The Roman Numeral Kata",
+  "source_url": "https://codingdojo.org/kata/RomanNumerals/"
+}
