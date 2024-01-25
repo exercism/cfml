@@ -292,6 +292,14 @@
         "difficulty": 2
       },
       {
+      "slug": "roman-numerals",
+      "name": "Roman Numerals",
+      "uuid": "0a23cb23-49b5-4a0c-92fb-9f1bce63570c",
+      "practices": [],
+      "prerequisites": [],
+      "difficulty": 2
+      },
+      {
         "slug": "reverse-string",
         "name": "Reverse String",
         "uuid": "9f53f896-1390-4cc9-89fc-02212a205c40",
