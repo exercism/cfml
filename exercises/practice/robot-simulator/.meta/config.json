@@ -1,0 +1,18 @@
+{
+  "authors": [
+    "BNAndras"
+  ],
+  "files": {
+    "solution": [
+      "RobotSimulator.cfc"
+    ],
+    "test": [
+      "RobotSimulatorTest.cfc"
+    ],
+    "example": [
+      ".meta/Example.cfc"
+    ]
+  },
+  "blurb": "Write a robot simulator.",
+  "source": "Inspired by an interview question at a famous company."
+}
