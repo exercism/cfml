@@ -1,5 +1,5 @@
 /**
-* Your implementation of the PopCount exercise
+* Your implementation of the EliudsEggs exercise
 */
 component {
 
