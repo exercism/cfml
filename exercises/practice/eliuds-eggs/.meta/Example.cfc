@@ -1,5 +1,5 @@
 /**
-* Here is an example solution for the PopCount exercise
+* Here is an example solution for the EliudsEggs exercise
 */
 component {
 

@@ -1,12 +1,12 @@
 component extends="testbox.system.BaseSpec" {
 
 	function beforeAll(){
-	  SUT = createObject( 'PopCount' );
+	  SUT = createObject( 'EliudsEggs' );
 	}
 
 	function run(){
 	
-		describe( "My PopCount class", function(){			
+		describe( "My EliudsEggs class", function(){			
 
 			it( '0 eggs', function(){
 				expect( SUT.eggCount( number='0' ) ).toBe( '0' );
