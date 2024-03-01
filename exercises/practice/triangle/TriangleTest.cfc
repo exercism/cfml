@@ -74,8 +74,16 @@ component extends="testbox.system.BaseSpec" {
 					expect( SUT.scalene( sides=[4, 4, 4] ) ).toBeFalse();
 				});
 
-				it( 'false if two sides are equal', function(){
+				it( 'false if first and second sides are equal', function(){
 					expect( SUT.scalene( sides=[4, 4, 3] ) ).toBeFalse();
+				});
+
+				it( 'false if first and third sides are equal', function(){
+					expect( SUT.scalene( sides=[3, 4, 3] ) ).toBeFalse();
+				});
+
+				it( 'false if second and third sides are equal', function(){
+					expect( SUT.scalene( sides=[4, 3, 3] ) ).toBeFalse();
 				});
 
 				it( 'Sides that violate triangle inequality are not scalene, even if they are all different', function(){
