@@ -1,0 +1,17 @@
+{
+  "authors": [
+    "BNAndras"
+  ],
+  "files": {
+    "solution": [
+      "ListOps.cfc"
+    ],
+    "test": [
+      "ListOpsTest.cfc"
+    ],
+    "example": [
+      ".meta/Example.cfc"
+    ]
+  },
+  "blurb": "Implement basic list operations."
+}
