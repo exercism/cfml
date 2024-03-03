@@ -292,12 +292,12 @@
         "difficulty": 2
       },
       {
-      "slug": "roman-numerals",
-      "name": "Roman Numerals",
-      "uuid": "0a23cb23-49b5-4a0c-92fb-9f1bce63570c",
-      "practices": [],
-      "prerequisites": [],
-      "difficulty": 2
+        "slug": "roman-numerals",
+        "name": "Roman Numerals",
+        "uuid": "0a23cb23-49b5-4a0c-92fb-9f1bce63570c",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
       },
       {
         "slug": "reverse-string",
@@ -426,6 +426,15 @@
         "slug": "list-ops",
         "name": "List Ops",
         "uuid": "eadcef04-da87-4bbd-8d50-89fd040854f8",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
+
+        "slug": "allergies",
+        "name": "Allergies",
+        "uuid": "24B97B93-6FFE-43AB-AD2E-7A6CA480C390",
         "practices": [],
         "prerequisites": [],
         "difficulty": 2
