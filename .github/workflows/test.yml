@@ -30,7 +30,7 @@ jobs:
           uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
     
         - name: Set up Java
-          uses: actions/setup-java@7a445ee88d4e23b52c33fdc7601e40278616c7f8
+          uses: actions/setup-java@9704b39bf258b59bc04b50fa2dd55e9ed76b47a8
           with:
             distribution: 'adopt'
             java-version: '8'
