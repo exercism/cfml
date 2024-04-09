@@ -88,7 +88,7 @@ component {
 			.getMemento();
 		
 		// Print out the results with ANSI formatting for the CLI
-		getInstance( 'CLIRenderer@testbox-commands' )
+		getInstance( 'CLIRenderer@testbox-cli' )
 			.render( print, testData, true );
 			
 		print.toConsole();
