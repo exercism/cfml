@@ -16,7 +16,7 @@ component {
 		
 		if( all ) {
 			
-			// Get an array of all the excercise names
+			// Get an array of all the exercise names
 			var exercises = directoryList( expandPath( getDirectoryFromPath( getCurrentTemplatePath() ) & '../exercises' ) )
 				.map( function( path ) {
 					return path.listLast( '/\' );
@@ -26,7 +26,7 @@ component {
 		
 			// Acquire slug
 			if( isNull( arguments.slug ) ) {
-				arguments.slug = ask( 'Exercise slug as defined by Excercism. Ex: "hello-world": ' );
+				arguments.slug = ask( 'Exercise slug as defined by Exercism. Ex: "hello-world": ' );
 			}
 			var exercises = [ slug ];
 			
@@ -60,7 +60,7 @@ component {
 				var testStub = fileRead( repoRootPath & '/tasks/exercise_template/@@name@@Test.cfc' );
 				testStub = testStub.replace( '@@name@@', exerciseName, 'all' );
 				testStub = testStub.replace( '@@testCases@@', testCases, 'all' );
-				var targetExercisePath = repoRootPath & 'exercises/' & slug;
+				var targetExercisePath = repoRootPath & 'exercises/practice/' & slug;
 				var newTestPath = targetExercisePath & '/' & exerciseName & 'Test.cfc';
 				
 				if( !directoryExists( targetExercisePath ) ) {
