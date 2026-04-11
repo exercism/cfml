@@ -7,16 +7,21 @@ component {
 		if( number == 0 ) {
 			throw( 'there is no zeroth prime' );
 		}
-		var primes = [];
+		if( number == 1 ) {
+			return 2;
+		}
+
+		var primes = [2];
 		var candidate = 1;
 		while( primes.len() < number ) {
-			candidate ++;
-			if( candidate % 2 == 0 && candidate != 2 ) {
-				continue;
-			}
-			var factor = 1;
+			candidate += 2;
 			var isPrime = true;
-			while( ++factor < candidate ) {
+			var limit = Round(Sqr(candidate));
+			for (var factor in primes) {
+				if( factor > limit ) {
+					break;
+				}
+
 				if( candidate % factor == 0 ) {
 					isPrime = false;
 					break;
