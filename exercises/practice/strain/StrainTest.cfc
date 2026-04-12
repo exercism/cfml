@@ -117,4 +117,4 @@ component extends="testbox.system.BaseSpec" {
 		
 	}
  
-}containsFive
+}
