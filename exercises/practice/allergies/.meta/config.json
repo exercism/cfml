@@ -2,6 +2,9 @@
   "authors": [
     "BNAndras"
   ],
+  "contributors": [
+    "IsaacG"
+  ],
   "files": {
     "solution": [
       "Allergies.cfc"
