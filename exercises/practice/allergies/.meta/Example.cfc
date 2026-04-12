@@ -3,30 +3,42 @@
 */
 component {
 
-	variables.allergens = ["eggs","peanuts","shellfish","strawberries","tomatoes","chocolate","pollen","cats"];
+	variables.allergens = [
+		"eggs", "peanuts", "shellfish", "strawberries",
+		"tomatoes", "chocolate", "pollen", "cats"
+	];
+
+	variables.myAllergies = [];
 
 	/**
-	* @returns 
+	* @returns
 	*/
-	public function init( required score ) {
-		variables.score = arguments.score;
+	public function init( score ) {
+		variables.myAllergies = [];
+		var bitValue = 1;
+
+		for (var item in variables.allergens) {
+			if (bitAnd(score, bitValue) != 0) {
+				arrayAppend(variables.myAllergies, item);
+			}
+			bitValue *= 2;
+		}
+
 		return this;
-    }
+	}
 
 	/**
-	* @returns 
+	* @returns
 	*/
 	function allergicTo( item ) {
-		var itemPresent = function( allergen ) { return variables.item == arguments.allergen; }
-		return list().some( itemPresent );
+		return arrayContains(variables.myAllergies, item);
 	}
-	
+
 	/**
-	* @returns 
+	* @returns
 	*/
 	function list() {
-		var allergenPresent = function( item, i ) { return booleanFormat( (bitAnd( variables.score, bitShln( 1, ( i - 1 ) ) ) ) ); };
-		return variables.allergens.filter( allergenPresent );
+		return variables.myAllergies;
 	}
-	
+
 }
