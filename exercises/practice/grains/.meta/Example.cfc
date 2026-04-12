@@ -14,12 +14,10 @@ component {
 	}
 	
 	function total( input ) {
-		var total = 0;
-		loop from=1 to=64 index='local.i' {
-			total += square( i );
-		}
-		
-		return total;
+		var base = createObject("java","java.math.BigInteger").init( 2 );
+		var power = createObject("java","java.math.BigInteger").init( 64 );
+		var one = createObject("java","java.math.BigInteger").init( 1 );
+		return base.pow( power ).subtract( one ).toString();
 	}
 	
 }

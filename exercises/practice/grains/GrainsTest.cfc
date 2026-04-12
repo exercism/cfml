@@ -53,7 +53,7 @@ component extends="testbox.system.BaseSpec" {
 			});
 
 			it( 'returns the total number of grains on the board', function(){
-				expect( SUT.total() ).toBe( 18446744073709551615 );
+				expect( SUT.total() ).toBe( '18446744073709551615' );
 			});
 
 		});
