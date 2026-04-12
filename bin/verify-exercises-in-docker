@@ -23,15 +23,16 @@ required_tool() {
 required_tool docker
 
 copy_example_or_examplar_to_solution() {
-    jq -c '[.files.solution, .files.exemplar // .files.example] | transpose | map(select(.[0] and .[1]) | {src: .[1], dst: .[0]}) | .[]' .meta/config.json \
-    | while read -r src_and_dst; do
-        cp "$(jq -r '.src' <<< "${src_and_dst}")" "$(jq -r '.dst' <<< "${src_and_dst}")"
+    jq -r '[.files.solution, .files.exemplar // .files.example] | transpose | map(select(.[0] and .[1]))[][]' .meta/config.json \
+    | while read -r dst; read -r src; do
+        cp "${src}" "${dst}"
     done
 }
 
 pull_docker_image() {
-    docker pull "${image}" ||
-        die $'Could not find the `'"${image}"$'` Docker image.\nCheck the test runner docs at https://exercism.org/docs/building/tooling/test-runners for more information.'
+    local msg
+    printf -v msg 'Could not find the `%s` Docker image.\nCheck the test runner docs at https://exercism.org/docs/building/tooling/test-runners for more information.' "${image}"
+    docker pull "${image}" || die "${msg}"
 }
 
 run_tests() {
