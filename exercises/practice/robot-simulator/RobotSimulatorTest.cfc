@@ -1,5 +1,9 @@
 component extends="testbox.system.BaseSpec" {
 
+	function objectEquals( robotA, robotB ){
+		return robotA.getx == robotB.getx && robotA.gety == robotB.gety && robotA.getdirection == robotB.getdirection
+	}
+
 	function run(){
 
 		describe( "My RobotSimulator class", function(){
