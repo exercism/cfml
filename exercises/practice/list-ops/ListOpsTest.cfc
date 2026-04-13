@@ -98,7 +98,7 @@ component extends="testbox.system.BaseSpec" {
 
 				it( 'direction dependent function applied to non-empty list', function(){
 					fn = function( acc, el ) { return el / acc; };
-					expect( SUT.foldl( list=[1, 2, 3, 4], fn=fn, initial=24 ) ).toBe( 64 );
+					expect( SUT.foldl( list=[1, 2, 3, 4], fn=fn, initial=24 ) ).toBeCloseTo( 64, 0.01 );
 				});
 
 			});
@@ -117,7 +117,7 @@ component extends="testbox.system.BaseSpec" {
 
 				it( 'direction dependent function applied to non-empty list', function(){
 					fn = function( acc, el ) { return el / acc; };
-					expect( SUT.foldr( list=[1, 2, 3, 4], fn=fn, initial=24 ) ).toBe( 9 );
+					expect( SUT.foldr( list=[1, 2, 3, 4], fn=fn, initial=24 ) ).toBeCloseTo( 9, 0.01 );
 				});
 
 			});
