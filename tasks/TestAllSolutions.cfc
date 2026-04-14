@@ -57,18 +57,22 @@ component {
                 passed = false;
             }
 
-            fileWrite(stub, backup);
-
             count++;
 
             if (passed) {
+                fileWrite(stub, backup);
                 print.line('#slug# - passed').toConsole();
             } else {
                 // rerun without capture to get failing output
-                command('task run')
-                    .params('TestRunner')
-                    .inWorkingDirectory(path)
-                    .run();
+                try {
+                    command('task run')
+                        .params('TestRunner')
+                        .inWorkingDirectory(path)
+                        .run();
+                } catch (any e) {
+                    passed = false;
+                }
+                fileWrite(stub, backup);
                 exitCode = 1;
                 break;
             }
