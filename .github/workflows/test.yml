@@ -40,7 +40,8 @@ jobs:
           with:
             path: |
               $HOME/.CommandBox
-            key: commandbox-${{ runner.os }}-${{ hashFiles('**/*.box') }}
+              exercises/**/testbox
+            key: commandbox-${{ runner.os }}-${{ hashFiles('**/box.json') }}
     
         - name: Install CommandBox
           run: |
