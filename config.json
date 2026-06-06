@@ -67,14 +67,6 @@
         "difficulty": 1
       },
       {
-        "slug": "binary-search",
-        "name": "Binary Search",
-        "uuid": "0cd629c7-20b6-4b9e-804b-edb075e3788b",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 2
-      },
-      {
         "slug": "bob",
         "name": "Bob",
         "uuid": "af621681-51c3-4725-a9fa-374a31aec3e8",
@@ -89,14 +81,6 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 1
-      },
-      {
-        "slug": "darts",
-        "name": "Darts",
-        "uuid": "85636c8c-55f6-4890-a6a6-5cbffcbbdd4c",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 2
       },
       {
         "slug": "diamond",
@@ -124,14 +108,6 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 1
-      },
-      {
-        "slug": "etl",
-        "name": "ETL",
-        "uuid": "562a030c-681d-4e53-85eb-c181e73ac950",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 2
       },
       {
         "slug": "flatten-array",
@@ -220,14 +196,6 @@
         ]
       },
       {
-        "slug": "nucleotide-count",
-        "name": "Nucleotide Count",
-        "uuid": "cd5fd765-2d79-4cb8-b1f0-a5891a149672",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 2
-      },
-      {
         "slug": "pangram",
         "name": "Pangram",
         "uuid": "583e74df-e27e-48f5-9650-a3a01ed74f4c",
@@ -236,28 +204,12 @@
         "difficulty": 1
       },
       {
-        "slug": "perfect-numbers",
-        "name": "Perfect Numbers",
-        "uuid": "56535bf0-960c-4f45-a97e-fb35e237ed9b",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 2
-      },
-      {
         "slug": "pig-latin",
         "name": "Pig Latin",
         "uuid": "600c5e6f-0d5a-48e0-ae89-1048bf22a9df",
         "practices": [],
         "prerequisites": [],
         "difficulty": 1
-      },
-      {
-        "slug": "protein-translation",
-        "name": "Protein Translation",
-        "uuid": "3d94da82-fba0-48b6-be1e-529d698ecf6a",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 3
       },
       {
         "slug": "queen-attack",
@@ -274,38 +226,6 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 1
-      },
-      {
-        "slug": "resistor-color",
-        "name": "Resistor Color",
-        "uuid": "fd376c87-e682-4afc-b12f-446443a9b57a",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 2
-      },
-      {
-        "slug": "resistor-color-duo",
-        "name": "Resistor Color Duo",
-        "uuid": "4a1bd9da-e0d4-445f-8b66-cde7ec4888c8",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 2
-      },
-      {
-        "slug": "roman-numerals",
-        "name": "Roman Numerals",
-        "uuid": "0a23cb23-49b5-4a0c-92fb-9f1bce63570c",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 2
-      },
-      {
-        "slug": "reverse-string",
-        "name": "Reverse String",
-        "uuid": "9f53f896-1390-4cc9-89fc-02212a205c40",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 2
       },
       {
         "slug": "rna-transcription",
@@ -356,22 +276,6 @@
         "difficulty": 1
       },
       {
-        "slug": "square-root",
-        "name": "Square Root",
-        "uuid": "a224cd5d-4d70-43d5-9204-7ba59bc4fe3d",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 2
-      },
-      {
-        "slug": "strain",
-        "name": "Strain",
-        "uuid": "5a1a2fa9-e8d0-4784-ba0c-c53fb8405e26",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 2
-      },
-      {
         "slug": "sum-of-multiples",
         "name": "Sum of Multiples",
         "uuid": "9d4fd39d-ae05-431a-8d71-5b5028595487",
@@ -407,20 +311,44 @@
         "difficulty": 1
       },
       {
-        "slug": "markdown",
-        "name": "Markdown",
-        "uuid": "33285e71-7966-43e8-8c5b-c3c7d7b42c02",
+        "slug": "allergies",
+        "name": "Allergies",
+        "uuid": "4bc14953-eb7a-4c1b-a45e-b80205b4a628",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 5
+        "difficulty": 2
       },
       {
-        "slug": "robot-simulator",
-        "name": "Robot Simulator",
-        "uuid": "944c3e7f-e519-4cb5-922f-7eeaa06ccb25",
+        "slug": "binary-search",
+        "name": "Binary Search",
+        "uuid": "0cd629c7-20b6-4b9e-804b-edb075e3788b",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 3
+        "difficulty": 2
+      },
+      {
+        "slug": "collatz-conjecture",
+        "name": "Collatz Conjecture",
+        "uuid": "91a2e23b-b743-4d62-9908-62454e6077b8",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
+        "slug": "darts",
+        "name": "Darts",
+        "uuid": "85636c8c-55f6-4890-a6a6-5cbffcbbdd4c",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
+        "slug": "etl",
+        "name": "ETL",
+        "uuid": "562a030c-681d-4e53-85eb-c181e73ac950",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
       },
       {
         "slug": "list-ops",
@@ -431,12 +359,84 @@
         "difficulty": 2
       },
       {
-        "slug": "allergies",
-        "name": "Allergies",
-        "uuid": "4bc14953-eb7a-4c1b-a45e-b80205b4a628",
+        "slug": "nucleotide-count",
+        "name": "Nucleotide Count",
+        "uuid": "cd5fd765-2d79-4cb8-b1f0-a5891a149672",
         "practices": [],
         "prerequisites": [],
         "difficulty": 2
+      },
+      {
+        "slug": "perfect-numbers",
+        "name": "Perfect Numbers",
+        "uuid": "56535bf0-960c-4f45-a97e-fb35e237ed9b",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
+        "slug": "resistor-color",
+        "name": "Resistor Color",
+        "uuid": "fd376c87-e682-4afc-b12f-446443a9b57a",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
+        "slug": "resistor-color-duo",
+        "name": "Resistor Color Duo",
+        "uuid": "4a1bd9da-e0d4-445f-8b66-cde7ec4888c8",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
+        "slug": "reverse-string",
+        "name": "Reverse String",
+        "uuid": "9f53f896-1390-4cc9-89fc-02212a205c40",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
+        "slug": "roman-numerals",
+        "name": "Roman Numerals",
+        "uuid": "0a23cb23-49b5-4a0c-92fb-9f1bce63570c",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
+        "slug": "square-root",
+        "name": "Square Root",
+        "uuid": "a224cd5d-4d70-43d5-9204-7ba59bc4fe3d",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
+        "slug": "strain",
+        "name": "Strain",
+        "uuid": "5a1a2fa9-e8d0-4784-ba0c-c53fb8405e26",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
+        "slug": "protein-translation",
+        "name": "Protein Translation",
+        "uuid": "3d94da82-fba0-48b6-be1e-529d698ecf6a",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
+      },
+      {
+        "slug": "robot-simulator",
+        "name": "Robot Simulator",
+        "uuid": "944c3e7f-e519-4cb5-922f-7eeaa06ccb25",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
       },
       {
         "slug": "circular-buffer",
@@ -447,12 +447,12 @@
         "difficulty": 4
       },
       {
-        "slug": "collatz-conjecture",
-        "name": "Collatz Conjecture",
-        "uuid": "91a2e23b-b743-4d62-9908-62454e6077b8",
+        "slug": "markdown",
+        "name": "Markdown",
+        "uuid": "33285e71-7966-43e8-8c5b-c3c7d7b42c02",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 2
+        "difficulty": 5
       }
     ]
   },
