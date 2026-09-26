@@ -1,0 +1,46 @@
+exerciseDir = getDirectoryFromPath( getCurrentTemplatePath() );
+localTestBox = exerciseDir & "testbox";
+hiddenTestBox = exerciseDir & ".testbox_cfml";
+testBoxWasHidden = false;
+exitCode = 0;
+
+try {
+	// CommandBox installs its CFML TestBox dependency here. Hide it while the
+	// BoxLang module is running so both local test runners can coexist.
+	if( directoryExists( localTestBox ) ) {
+		if( directoryExists( hiddenTestBox ) ) {
+			throw( message = "Both testbox and .testbox_cfml exist. Remove the stale .testbox_cfml directory and try again." );
+		}
+		directoryRename( localTestBox, hiddenTestBox );
+		testBoxWasHidden = true;
+	}
+
+	testBox = new testbox.system.TestBox( reporter = "console" );
+	testFiles = directoryList( exerciseDir, false, "name", "*Test.cfc" );
+	if( !testFiles.len() ) {
+		throw( message = "No test files found in " & exerciseDir );
+	}
+
+	for( file in testFiles ) {
+		testBox.addBundles( "exercise." & file.listFirst( "." ) );
+	}
+
+	results = testBox.runRaw();
+	new testbox.system.reports.ConsoleReporter().runReport( results, testBox, {}, true );
+
+	if( results.getTotalFail() > 0 || results.getTotalError() > 0 ) {
+		exitCode = 1;
+	}
+} catch( any e ) {
+	println( "ERROR: " & e.message );
+	if( len( e.detail ?: "" ) ) {
+		println( e.detail );
+	}
+	exitCode = 1;
+} finally {
+	if( testBoxWasHidden && directoryExists( hiddenTestBox ) ) {
+		directoryRename( hiddenTestBox, localTestBox );
+	}
+}
+
+CLIExit( exitCode );
