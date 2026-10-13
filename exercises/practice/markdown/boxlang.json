@@ -1,0 +1,6 @@
+{
+	"mappings": {
+		"/testbox": "${user-home}/.boxlang/modules/testbox",
+		"/exercise": "${user-dir}"
+	}
+}
