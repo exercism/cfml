@@ -1,0 +1,13 @@
+function mostCommonWord( required string text ) {
+	var counts = {};
+	var best = "";
+	var bestCount = 0;
+	for ( var word in text.lCase().listToArray( " " ) ) {
+		counts[ word ] = ( counts[ word ] ?: 0 ) + 1;
+		if ( counts[ word ] > bestCount ) {
+			best = word;
+			bestCount = counts[ word ];
+		}
+	}
+	return '"#best#" appears #bestCount# times';
+}
